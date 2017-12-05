@@ -1,0 +1,95 @@
+Adding Windows Computer to a Windows Server
+
+Big purpose of Active Directory -->  To have a central place for administration
+								for things like permission, security policies. To be able to get
+								users access to resources, to be able to deny their access to resources.
+							
+NOTE: To be able to add computer in windows server ... You need to use a business version of the client OS.
+>> You can use xp pro, vista( business, ultimate), windows7 (business, enterprise) , windows8(pro, enterprise)
+>> you cannot use the home version. xp home , vista home premium, win7 home premium ... those client os do not has the 
+component that allows those computer to be able to join to the domain.
+
+Active Directory Domain Controller
+DNS
+DHCP
+
+
+WINDOW 7 PROFESSIONAL PRODUCT KEY 32 BIT
+
+8X2Y6-2R9QV-ME2FY-8MJ3B-4CQB8
+DF6YR-DFEXQ-WR8LA-STH43-QYR5N
+FDJK4J-8GTSF-R94QY-SR8OS-3KGTF
+4RFLJ-FH84S-3TYPD-KLPEW-UYOR5
+VYL8D-JFXE8-RNGH9-UT89E-XRTD9
+
+WINDOW 7 PROFESSIONAL PRODUCT KEY 64 BIT:
+
+AXBS6-LR9OV-MEYF5-RMJB9-UCRT2P
+SF6YR-DEVX1-WSSL4-STPO3-QEX5P
+WDJK4J-XGTS3-RY4TY-REHO2-3CSTF
+PRFLJ-FHDX4-PRXP6-KLUR7-UYOR5
+HYKI5-LITF8-RESH9-UTXV6-XLWQ8
+
+Steps on Domain Controller
+1. Open Server Manager
+2. Click "Tools" and select "Active Directory Users and Computers"
+ >> MMC SnapIn will open "MMC for Microsoft Management Console"
+3. Go to the domain ex >> rjcm.com
+ >> press the drop down button to show the list of folders
+	>>> Computers --> will show the list of the computers on the domain.
+	>>> DOmain Controller --> will show the list of the domain controller.
+	
+4. Proceed to workstation steps
+5. Refresh go to the computers folder and now, the computer is been added.
+	
+Steps on workstation
+1. Make sure you turn off all other DHCP server
+	>> Open the command promt "cmd"
+	>> ipconfig
+		>> Connection-specific  DNS suffix  . : rjcm.com  ---> has to be the one that is configure on the server.
+														  ---> in case of other connection turn off the other DHCP server.
+														  ---> follow the steps on bridging vmware
+2. on the PC Properties click "Change Settings"
+	>> System Properties windows will open 
+		>> To use a wizard to join a domain or workgroup click Network ID "next"
+		>>  This computer  is part of a business network; I use it to connect at work "next"
+		>> My company uses a network with a domain "next"
+		>> you need the ff
+			>> username
+			>> pw
+			>> user account domain name
+			
+			>> computer name 
+			>> computer domain name
+			>> next
+		>> Type your username, pw, and domain name for your domain account
+		ex
+			username : administrator -->" domain account "
+			pw: @P
+			domain name : RJCM.COM
+			"next"
+		>> Type the computer name and computer domain name
+		ex
+			computer name : Test-PC
+			domain name : RJCM.COM
+			"next"
+		
+		>> permision box
+		ex	
+			username : administrator
+			pw: your pw
+			domain: RJCM.COM
+			"ok"
+		
+		>> Add the ff domain user account "next"
+		>> Choose account type
+		ex
+			Administrator "next"
+		
+		>>finish
+		>>OK
+		>> restart now
+		>> use the admin password to log in the system.
+		
+		
+NEXT -- > Creating and Administering User Accounts in Active Directory on Windows Server 2012					

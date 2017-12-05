@@ -1,0 +1,46 @@
+Download uTorrent
+Steps
+1. Open the browser
+2. Search for "download uTorrent"
+3. Follow the installation steps.
+
+kickass --> https://kickass.unblocked.pl/
+download windows server iso "Date 11/21/2017"	
+https://kickass.unblocked.pl/windows-server-2012-r2-iso-tt14399079.html
+
+VMware Workstation 14
+
+Serial:
+
+ZF19K-02Z8H-H89ZQ-UFWZE-WQKU0
+
+VA552-68W90-489UY-T7MEX-M3AV2
+
+VZ302-43YEP-M8DWQ-VWZEC-YKH8D
+
+CA3DK-62W9P-08D7Z-5EXZG-XY8CF
+
+VF3N0-AHX8P-H8EYY-G6WNC-X7KW0
+
+
+
+Vmware Installation Steps
+1.Open the vmware application
+2.locate File tab on the top left corner
+3.Select new Virtual Machine
+4.Select the iso file of the windows server
+5.Enter the product key 
+	-->  Server Standard - DBGBW-NPF86-BJVTX-K3WKJ-MTB6V
+		 Server Datacenter - Y4TGP-NPTV9-HTC2H-7MGQ3-DV4TW
+		 Server Essentials - K2XGM-NMBT3-2R6Q8-WF2FK-P36R2
+6. 50 GB, split disk to multiple files		
+7. Customize hardware
+	--> memory ram 2gb
+	--> processor 1, number of cores/pcu 2
+8. Close and finish
+		 
+
+
+
+
+

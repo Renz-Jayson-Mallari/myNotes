@@ -1,0 +1,8 @@
+POP3 = port 110
+IMAP = port 143
+SMTP = port 25
+HTTP = port 80
+Secure SMTP (SSMTP) = port 465
+Secure IMAP (IMAP4-SSL) = port 585
+IMAP over SSL (IMAPS) = port 993
+Secure POP3 ( SSL - POP)  = port 995

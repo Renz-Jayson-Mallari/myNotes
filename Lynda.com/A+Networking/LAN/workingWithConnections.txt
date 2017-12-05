@@ -1,0 +1,15 @@
+netstat --> show connection to and from your computer.
+
+netstat -n --> show network statistic nemerically .
+
+netstat -a --> show all network statistic.
+
+tcpview --> like a graphical netstat
+		--> show network connection information in graphical format.
+		
+download TCPVIEW
+
+NOTES:
+ >> it is important to keep track of connection
+ >> netstat is built into windows
+ >> tcpview is graphical and a quick download from microsoft

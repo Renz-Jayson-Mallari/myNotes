@@ -1,0 +1,51 @@
+Installing Active Directory, DNS, and DHCP server
+
+Active Directory --> is security service
+				 --> is the service that allowed as to create users, groups and organizational unit
+				 and assign resoureces to those users and groups.
+				 --> basically this allows as to create a user and very easily give them permission to use
+				 a printer or access files on the network. Or to restrict their access.
+		
+DNS --> Domain Name Services
+DHCP --> gives the dynamic ip addresses		
+DC --> Domain Controller
+   --> each domain should consist atleast one domain controller.
+
+to have a Domain Controller
+--> install Active Directory on the windows server
+--> install DNS and DHCP server to make the Active Directory to work.
+
+Istallation process 
+1.Go to the server manager by clicking the icon on the bottom left corner " sometimes next to start button icon"
+2.Changing the name of the server
+		2.1 Go to "Local Server"
+		2.2 Click the current "Computer Name"
+		2.3 Click the button "Change"
+		2.4 Type in the computer name ex "Server"
+		2.5 Restart the Computer
+3.Go to manage and select "Add Roles and Features"
+4.Walk to the process 
+	--> before you begin "Next"
+	--> installation type "Next"
+	--> Server Selection "Next" only one server on this example
+	--> Server Roles select the ff
+		---> Active Directory Domain Services
+		---> DHCP Server
+		---> DNS Server
+	--> Next
+	--> Features "Next"
+	--> AD,DHCP, & DNS "Next"
+	-->Confirmation "install"
+5. After Installation few additional instruction is highlighted on blue text with underline
+		-->AD --->promote this server to the domain controller
+			----> Add a new forest
+			----> Root domain name "ex. rjcm.com" then press next
+			---->enter password ex "pil@ntodPo2"
+		-->DHCP --->complete dhcp configuration
+		-->
+		
+
+
+
+			
+

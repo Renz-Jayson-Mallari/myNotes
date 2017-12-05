@@ -1,0 +1,53 @@
+Creating And Admninistering User Accounts in Active Directory
+
+Active directory --> it give you one place to go to where you can add user, you can change password, you can disable accounts,
+				so on and so fort.
+				
+Steps on Windows Server
+1. Open up the server manager
+2. Go over the tools and go to "Active Directory User and Computers"
+3. Under the servername dropdown " ex. rjcm.com" look for the folder "users" 
+	>> it will shows the user accounts and group accounts .
+		>>> single person icon is a user accounts
+			>>>> Default users from the install
+				1. Administrator Account
+				2. Guest Account --> disabled by default "down arrow on the side of the icon shown " means disabled.
+		>>> two people side by side icon is group accounts.
+	
+To ADD NEW Users
+1. Right click on the users folder 
+2. Select "New"
+3. Select "User"
+	>> ex . F-name: First
+			L-name: User
+			Full-name: First User
+			Logon name: testuser@rjcm.com
+4. Press Next
+5. Enter Password
+	>> ex Password : newpassword
+		  Confirm pw : newpassword
+		  Check -- User must change password at next logon --> password1234
+		 
+	NOTE: Account disabled
+		--> when user got a replacement, you can disable the account and rename it for the new user. We do this to preserve 
+		permissions.
+6. Press Next
+7. Finish
+
+Logon using the credential
+
+Back to the server
+Check the properties
+	1. right click on the users icon name and go to properties
+		>>General info
+		>>Address
+		>> Acoount info
+			> password options
+			> Account disabled
+			> Account expires >> for example an account for contractor that will be only around for a month
+								and you want to make sure that once that month is over they can no longer login. 
+								You can have this expires 
+			> Logon hours >> you can set when is the person can be able to login on the network.
+			> Add the user into a group >> meeber of
+										>> click Add button
+										>> and add the user to a group.

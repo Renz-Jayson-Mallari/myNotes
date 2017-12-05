@@ -1,0 +1,16 @@
+Broadcast -->255.255.255.255
+loopback --> 127.0.0.1
+ping localhost == ping 127.0.0.1
+
+APIPA --> Automatic Private IP Addressing
+	  --> 169.254.X.X
+Private Addresses
+a. Starts with the 10 ex 10.14.22.44
+b. 172.16 to 172.31
+	172.16.0.1 to 172.31.255.254
+c. 192.168.X
+
+NAT --> Network Address Translation
+	--> routers use NAT to share a single IP Address with multiple system
+	--> NAT rewrites the private IP Address of the client as the public as the public IP of the router.
+	--> the same is done in reverse with the return packet.

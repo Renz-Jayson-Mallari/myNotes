@@ -1,0 +1,25 @@
+DNS --> Domain Name System
+	--> job resolve IP base on FQDN
+	
+FQDN --> Fully Qualified Domain Names
+	 --> ftp.microsoft.com
+	 --> ex . www.totalsem.com
+	 www = host
+	 www.totalsem.com = web browser
+	 ftp.totalsem.com = ftp server
+	 mail.totalsem.com = mail server
+	 
+NOTE : the name of the host can be anything. But we do it convetion
+convention --> a way in which is usually done.
+
+www.totalsem.com
+host.secondary.topleveldomain
+fqdm --> cannot be more than 256 characters
+	 --> can have as many dot as you wanted
+	
+Google DNS Server : 8.8.8.8
+
+DNS resolves FQDN to IP Addresses
+www.totalsem.com is an example of an fqdn
+.com and .edu are example of top-level domains (TLDS)
+	

@@ -1,0 +1,24 @@
+Steps 
+1. Network Connection
+2. rightclick on ethernet connection
+3. select properties
+4. select Internet Protocol version 4 (TCP/IPv4) 
+5. click properties
+6. Use the following DNS server addresses
+	ex 
+	preffered: 192.168.4.4
+	alternate: 8.8.8.8 public dns server famous
+			   8.8.4.4
+			   
+	to know the DNS Server ip address
+	ipconfig /all
+	
+	to know that dns is working
+	ping www.totalsem.com --> any website with dns
+	it should show the ip address
+	
+	nslookup --> command line utility that is use to talk to dns server.
+	
+	nslookup
+	nslookup 8.8.8.8 --> change the dns server to 8.8.8.8
+	

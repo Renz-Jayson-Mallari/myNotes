@@ -1,0 +1,19 @@
+Ping and ipconfig
+
+ping 192.168.1.4
+ping --> to check the connectivity by sending a request and getting a respond from the Ip address that you ping
+
+ping -t 192.168.1.4
+.. will ping nonstop until you stop it
+ctrl +C 
+... to stop
+
+ipconfig
+... shows IP configuration
+... to check your machine or computer
+
+ipconfig /all
+... shows more IP configuration including mac addressand DNS information
+
+ipconfig /flushdns 
+... clears the dns cache

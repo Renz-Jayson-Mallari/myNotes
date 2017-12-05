@@ -1,0 +1,19 @@
+TCP runs over the IP
+TCP --> is the most common way to talk on the phone
+
+TCP --> Transmission COntrol Protocol
+	--> the most common protocol that we used with IP
+	--> connection oriented
+		>> tcp negotiates to create a connection between client and server.
+		
+UDP --> User Datagram Protocol
+	--> is connectionless oriented 
+	--> Datagram means unacknowledged
+	--> less overhead and a lot faster than tcp
+	--> dhcp will used udp
+	--> 45+-
+
+ICMP --> Internet Control Message Protocol
+	--> ICMP is used by ping
+	--> connectionless, one packet only
+	--> is the maintenance protocol for an IP netwrok

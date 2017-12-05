@@ -1,0 +1,49 @@
+Basic DHCP setup on Windows Server 2012
+
+EXAMPLE
+
+10.1.10.1 --> default gateway
+10.1.10.2 --> primary server
+10.1.10.2 to 10.1.10.10 --> servers on the network
+10.1.10.11 to 10.1.10.20 --> networking equipment
+10.1.10.21 to 10.1.10.30 --> printers on the network
+
+Steps
+1. Search for "Network"
+2. Select Settings
+3. View Network Connections
+4. Right Click on Ethernet Connections and select "Properties".
+5. Select "Internet Protocol Version 4 (TCP/IPv4)" and press "Properties".
+ ex .
+ -> Use the ff IP address
+	IP address --> 10.1.10.2
+	Subnet mask --> 255.0.0.0
+	Default Gateway --> 10.1.10.1
+ -> Use the ff DNS Server address
+	Preferred DNS Server --> 10.1.10.2
+	Alternate DNS Server --> 10.1.10.1
+6. Ok , close
+
+Server Manager Steps
+1. Tools then select DHCP
+2. Right click on IPv4 and select New Scope
+3. Next
+4. Name: Basic then click Next
+5. Start Ip address --> 10.1.10.100
+   End Ip address --> 10.1.10.200
+   Next
+6. Ip address exclude Next
+7. 8 days --> just an example it depends on the environment where the IP address is used Next
+8. Yes, I want to configure the options now Next
+8. Default Gateway 10.1.10.1 Add , Next
+9. DNS Server --> primary on the top Next
+10. Wins Server, Next
+11. Yes, I want to activate this scope now.
+12. Finish
+
+To Stop, Pause, Restart DHCP server --> right click on on the server "server.rjcm.com"
+							--> All task 
+NOTE : For others using VMware: I'm using VMware Workstation 11 and 
+I went into the settings of each VM >> Settings >> Network Adapter: 
+VMnet0 for all of the machines you're working with.﻿
+	

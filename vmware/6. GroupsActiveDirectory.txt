@@ -1,0 +1,54 @@
+Creating and Administering Groups in Active Directory on Windows Server 2012
+
+Why Active Directory?
+	--> makes it easier to administered security and permissions for Users and Computers on the network.
+	
+Why we create a Domain Controller?
+	-->  on the domain controller we can somebody else password, create a user account, create a computer account so on and so fort
+	--> we dont want to seat down at each individual computer in order to create a user account stuff.
+	
+Why Groups?
+	--> make administrating the network easier because what you can do is you can put users , computers and even other groups 
+	into a single group and then assign permissions or security policies to the group.
+	
+Permissions?
+	--> the users or computer ability access networ resources, and what they able to do with the network resources.
+	Are they able to see them, able to read or write, Access a share folder in the network. Are they be a ble to a 
+	access a shared file in the network, are they be able to edit that shared file. Are they be able to access a printer
+	in the network. 
+	--> been able to access and interact with network shared resources.
+	
+Security?
+	--> is what users able to do with their systems.
+	--> Are they able to access the control panel.
+	--> Are they able to change the background settings.
+	--> Are they able to do different types of thing to computer.
+	
+NOTES: Permissions are being able to access shared resources on the network while security actually is been able to do stuff
+to the computer itself.
+
+Steps on the Server for adding Users on the group
+1. open up the server manager
+2. hover on tools and select "Active Directory Users and COmputers"
+3. ex. Domain Admin Group on Users Folder
+	>> double click
+	>> Members tab
+	>> Add --> To add member
+	>> put name on the text box and press Check Names button
+	>> press Ok 
+	>> Apply
+	>> ok --> and now the user is added.
+	
+Steps on Creating a new group
+1. Users Folder --> right click --> new --> group
+2. ex
+	Group Name: test group
+	Group Scope: Global --> default
+	Group type: Security --> Default
+	OK
+	
+Example add test user and test group to Domain Admins group
+
+next --> Introduction to File and Share Permissions in Windows Server 2012
+	
+	

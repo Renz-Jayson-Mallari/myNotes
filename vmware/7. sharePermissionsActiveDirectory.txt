@@ -1,0 +1,114 @@
+Introduction to File and Share Permissions in Windows Server 2012
+
+2 different types of permissions
+1. File or share permissions
+	--> are persmissions that are coming to play when you share resources 
+	like files, folders and printers over the network
+2. NTFS persmissions
+	--> are always on effect
+	--> ex. if you try to access files,folders and printers permission are always on effect.
+	--> when you sit down on local computer on a network the permission is always on effect.
+	
+NOTES: 
+		--> always assign permission and security into a group and not to inidividual users so that 
+	it will be more flexible incase of future expansions.
+		--> Also in terms of applying changes instead of changin permissions on each individual computer 
+	you rather makes the change in a group and it will be apply to all the computer that is member of the
+	group where that changes is applied.
+		--> A group of one is a better idea than assigning permissions on a specifiec user.
+		
+IN Terms the user is a member of MULTIPLE GROUPS
+	--> permission is allowing user to access share resources.
+	--> the ability (ex read, write and and list) is cumulative.
+		ex. >> marketing department has READ permission to a FOLDER
+			>> bookeeping department has a WRITE permision to the same FOLDER
+			>> then the USER that is a member of bothe marketing and bookeeping departing
+			his permision is cumulative and therefore he has a read and write permision of the FOLDER
+			
+OWNER
+	--> the owner of a folder can assign permisions to other users.
+	
+Administrator
+	--> has the ability to take ownership of any folder that is created in the network.
+	then he can assign the permission to that folder to the groups.
+	
+When to use share permissions?
+	--> assigning the share permissions, this is what actually shares the file, folder or resources out to the network.
+	So if you give file, folder , resource NTFS permission only, NO body else from the network can be able to access it.
+	because it hasnt been shared. The very act of giving share permission into a file,folder,resource is to actually 
+	shares it into the network.
+	
+NOTE: for SHARE Permissions >> you are going to use it to share file,folder,resource over the network.
+							>> to make your life easier is give everyone the GROUp the permision to read and write to the FOLDER
+							>> if you give the read/write permission to a folder then you will going to run into conflicts
+							between shares permissions and NTFS permissions.
+							
+GENERAL
+	1. used share permisions to share out file,folder,resource.
+	2. give EVERYONE Group the ability to read/write permision.
+	3. ONly used NTFS permisions to give or restrict access to those resources.
+	
+
+AT Windows Server STEPS.
+1. Server manager
+2. tools "Active Directory Users and Computers"
+3. Users FOLDER
+ex.
+4. Employees Group double click
+>> Members
+	> test Users
+	> user2
+5. Bad Group double click
+>>Members
+	> user2
+	
+6. file explorer >> Computer >> C: drive >>
+7. Create a folder called "Share"
+	>> rigthclick
+	>> properties
+	>> Sharing tab
+	>> click "share" button
+	>> type everyone group
+	>> give read/write permmsions
+		everyone has read/write permission
+		
+8. Create Private and Public folder inside the Share folder.
+	>> rightclick on Private
+	>> properties
+	>> Security
+	>> Edit
+	>> Eployees group Allow everything
+	>> Bad group Deny all permisions.
+	
+	Changing Ownership
+	>> Advanced  tab
+	>> Owner : change
+	>> type the new Owner name ok
+	
+Enable/Disable Inheritance
+	--> the inner folder will inherit the same permissions of the parent folder
+	
+	>> rightclick on Public
+	>> properties
+	>> security
+	>>
+	
+On the workstation 
+>> login as test user "the good user"
+>> search
+>> UNC --> Universal Naming Convention "\\server"
+	   --> server is the name of the server
+	   --> in order to access the share file on the server you do \\ and the name of the server
+	   
+>> doubleclick on share folder
+>> now you can see private and public folder.
+>> full access
+>> signout
+
+>> login as the user2 "the bad employee" to show the restriction.
+>> same steps
+>> now we can only see the public folder.
+>> full access
+
+NOTES: Evertime you make any modifications, either permissions or security. Many times those changes do not coming
+to affect until the users has logoff and log back in 

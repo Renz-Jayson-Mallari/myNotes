@@ -1,0 +1,38 @@
+Port Numbers --> 0 to 65535
+
+ex.
+Data --> 43112||21||192.168.4.11 ||100.11.12.13
+
+21 --> first port number
+   --> used by the recieving system to determined the program that needs this data.
+   
+43112 --> 2nd port number 
+	  --> kind of return address thats the recieving system uses when it response.
+	  
+Web Servers --> listen on port 80.
+Email Servers --> listen on port 25, 110
+
+ex.
+Data --> 51812 || 80 || 192.168.4.11 || 100.11.12.13
+...this goes to web server because it uses port 80
+
+Port Numbers
+21 --> ftp
+22 --> ssh
+23 --> telnet
+25 --> smtp
+53 --> dns
+80 --> http
+110 --> pop3
+143 --> imap
+443 --> https
+3389 --> rdp
+137-139 --> netbios/ netbt
+445 --> smb/cifs
+427 --> slp
+548 --> afp
+
+NOTE:
+ every TCP and UDP packet has two port numbers
+ the first 1024 ports are called "well-known" ports
+

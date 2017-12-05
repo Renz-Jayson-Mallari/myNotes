@@ -1,0 +1,41 @@
+Introduction Using DNS Service
+
+DNS --> one of the glues that bines the internet and TCP/IP
+	--> They map the domain name to the IP address
+	
+STEPS to open DNS Manager
+1. Open Server Manager
+2. click "Tools" from the left top tab and select "DNS"
+
+DNS Manager STEPS
+1. Right click on the Server name Icon 
+	> Scavenger Stale Resource Record --> will clean-up unused ip addresses and dns
+	> All Tasks --> Start, Stop, Pause, Resume and restart DNS Service.
+2. Click the drop down arrow and scroll down to the list
+	> DNS Events --> to check the error or problem that occurs on the DNS server.
+				 --> google search the error or problem.
+	> Forward Lookup Zones --> maps the domain names or the host names to IP addresses.
+		> go to Zone ex >> "rjcm.com" inside the Forward Lookeup Zones folder.
+		
+To create a new Record --> example adding a printer with Domain name 
+1. Right click on the zone ex >> rjcm.com and select " New Host(A or AAAA)
+	... will open up a form box "New Host"
+		>> Name --> printer
+		>> Fully qualified domain name (FQDN) --> printer.rjcm.com ---> will automatically filled
+		>>IP address --> 10.1.10.50 
+	... click Add Host
+	... will show on the DNS list
+	
+2. Open Command prompt
+	ping printer
+	... will try to reach the printer.
+
+NOTES:: --> in case dns is not changing after renew use flushdns to remove the cache memory	
+ipconfig /flushdns
+
+ipconfig /registerdns
+
+ipconfig /release
+
+ipconfig /renew
+	
