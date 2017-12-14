@@ -1,0 +1,10 @@
+Netdom Commands
+	--> has to be on cmd(Admin)
+
+>>netdom add Computer1
+	--> to add a computer, Computer1 is a computer name
+	
+>>netdom remove Computer1
+	--> to remove the computer from the network
+	
+Domain --> is a group of computers under a windows server.

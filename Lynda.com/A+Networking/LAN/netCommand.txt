@@ -1,0 +1,30 @@
+NET Command
+	--> is a very old command that help you manage your networks.
+	--> has many different options to manage and manipulate your network.
+
+>> net
+	--> show list ot net commands
+
+>> net view
+	--> list of the device in the workgroup network
+	
+>> net user
+	--> who am I in the the network
+	
+>> net view \\computerName
+	--> will show the list of the share
+	
+>> net use w: \\servername\shareMeFiles
+	--> w: is the drive where to put the shareme files
+	
+>> w:dir
+	--> show the transfer files
+	
+>> net share Dante=c:\Users\MichaelM\Desktop\Dante
+	-->Dante will be the share name
+	
+>> net accounts
+	--> show the acounts informations
+	
+>> net stop "World Wide Web Publishing Service"
+	--> stop the web server

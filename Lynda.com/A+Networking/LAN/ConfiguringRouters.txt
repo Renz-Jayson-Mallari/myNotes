@@ -1,0 +1,81 @@
+Configuring Routers
+
+Typein Default gateway into the browser to get to the router
+ex 192.168.1.1
+
+Cisco Router
+
+Setup >> Device IP address >> Save
+		ex 192.168.15.1
+		
+CMD
+>> ipconfig /renew
+--> this will also configure the DHCP automatically
+
+WAN side
+--> Obtain IP address automatically(default)
+
+System Management
+	>> Change Password
+	>> always change the default password
+	
+NAT
+	>> allows one IP address to be share of a lot of bunch different devices. 
+	
+NOTES
+	>> most routers use a web-based configuration screen
+	>> from the configuration screen, you can change the routers default username and password and many other settings
+	>> after you plug in it, make sure you secure your router before going online.
+	
+Advanced Routing Configuration
+
+Netgear Router
+>>Advanced
+	--> firmware update for the router is very important.
+	--> you can go to manufacturer website or click the update button.
+	
+>>Internet Setup	
+>>LAN Setup
+	-->DeviceName:MYRouter
+	-->IPAddress:10.10.10.1
+		--> Save and reset the router.
+			** This will configure the router LAN IP address
+			
+PORT 40 --> port forwarding directs  a single inbound port to a single IP host 
+PORT 80 --> Uses by the web server
+
+Port Forwarding/ Port Trigerring
+
+Port Forwarding ex.
+	Service name: HTTP
+	Server IP address: 10.10.10.10
+	>>ADD
+	
+Port Trigerring ex.
+	>> Add a service
+	Service Name: MyGameServer
+	Service User : ANY
+	Trigerring Port: 9094
+	Starting: 9001
+	Ending: 9901
+	
+DMZ --> Demilitarized Zone 
+	--> directs all inbound ports to a single ip host.
+	ex WAN setup
+		>> Default DMZ server: 10.10.10.10
+		>> port forwarding evything
+		>> no body uses it in a practical sense simply because it is very very dangerous
+		>> 
+QOS - Quality of Service
+	- prioritize network traffic management by category.
+	ex.
+		lynksys router
+			>QOS
+			>Auto
+			>Application
+			>Skype
+			>High
+			>>Apply
+
+	
+

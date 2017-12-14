@@ -1,0 +1,23 @@
+Routers
+	--> dont care where the packets come from only where they go to.
+	--> use routing table to decide where to send each packet.
+	--> all broadcasts are eliminated
+
+12.14.75.3 --> WAN
+		   --> 
+		   
+173.16.44.1 --> LAN
+
+192.168.15.1 --> LAN
+
+Routing Table
+
+IP 					Subnet Mass 			Interface
+0.0.0.0				0.0.0.0					12.14.75.3
+192.168.15.0		255.255.255.0			192.168.15.1
+173.16.0.0			255.255.0.0				173.16.14.1
+
+broadcast 255.255.255.255
+		--> router always eliminate all broadcast
+		
+	
