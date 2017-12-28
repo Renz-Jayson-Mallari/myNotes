@@ -1,0 +1,31 @@
+WIFI Standards
+
+1997 --> the first 802.11 standards
+
+802.11 --> the primary wireless technology that were using.
+
+Standards
+
+802.11B --> 2.4GHZ ISM band, which at those days was a whopping 11 megabits per second (11 mbps) top speed.
+802.11A --> run at 5 GHZ band,which runs at with the speed of whopping 54 megabits per second (54 mb/s)
+
+802.11B is more popular than 802.11A
+	--> they came up at the same time
+	--> because 802.11B has more wider range
+	
+802.11G --> runs at 2.4GHZ band, with the speed of 54mb/s
+
+802.11N --> it runs both 2.4GHZ and 5GHZ band, with the top speed of 600mb/s
+		--> MIMO: Multiple Input, Multiple Output
+		
+802.11AC --> its runs exclusively for 5GHZ band, with the speed of 1GB/s
+		 --> up to 8 silmultaneous streams with MIMO( Multiple Input, Multiple Output)
+		 --> MU-MIMO (Multi-User, Multiple Input,Multiple Output) up to 4 clients at once
+			
+Standards			Band			Speed
+802.11b				2.4GHZ			11mb/s
+802.11a				5GHZ			54mbps
+802.11g				2.4GHZ			54mbps
+802.11n				2.4 and 5GHZ	600mbps
+802.11ac			5GHZ			1GB/s
+

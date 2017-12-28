@@ -1,0 +1,19 @@
+Wireless Network hardware
+
+Wireless NIC --> Wireless Network Interface Card
+
+Wireless Access Point --> has only one ethernet port at the back
+					  --> his function is to act like a bridge between a wireless and ethernet network.
+					  
+Wireless SOHO --> has more ethernet port at the back.
+
+AD-HOCK VS Infrastructure Mode
+1. AD-HOCK --> doent need a Wireless Access Point
+2. Infrastructure Mode --> Uses a WAP
+
+NOTES 
+	>> TO connect to a wireless network, your pc needs a wireless nic
+	>> youre also need a wireless access point to which pc;s can connect
+	>> many wireless access point are package with switch and routers.
+
+

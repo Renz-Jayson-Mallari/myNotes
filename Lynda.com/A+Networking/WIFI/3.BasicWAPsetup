@@ -1,0 +1,52 @@
+Basic Wireless Access Point Setup
+
+ex 802.11AC --> 5ghz band with 1gb speed
+
+wireless network (2.4GHz b/g/n)
+								-->compatible with 802.11b/g/n
+								
+	enable SSID Broadcast --> checked
+	Name : HiyaRenz
+	Channel: AUTO
+			--> wifi analyzer >>( it is a tool apps)	
+							  >> shows what wireless networks are on my area right now]
+			--> avoid the channel that is most on used	
+	Mode: 54Mbps >> this will only support 802.11g
+		  433Mbps >> this will only support 802.11n
+		  1000Mbps || 1Gbps >> supports a full blown 802.11ac
+		  
+	Smart Connect: checked
+				--> one wireless network name (SSID) for both 5GHz network
+				--> make a one superfast ssid
+				
+	2nd SSID
+	NAme: FastRenz
+	Channel: 44 --> default usually work pretty good
+	Mode : 2156Mbps >> only work with 802.11ac
+					>> this wont support 802.11n
+					
+	3rd SSID
+	Name: FastRenz
+	Channel: 153 >> search which one is less used.
+	
+	
+	2nd and 3rd are combine and only work for 802.11ac
+	
+SECURITY
+	WPA --> 
+	WPA2 PSK (TKIP /AES)
+	PSK --> Private Shared Key
+	WPA/WPA2 Enterprise
+		
+WPA/WPA2 Enterprise
+			Encryption : WPA [tkip] + wpa (aes)
+			Group: 3600
+			ip
+			server Port: 1812 --> always
+			
+for home used
+	WPA2-PSK [AES]
+	Password Network: notmyrealpassword
+					--> tip used a long complex password
+					--> reason short password is easier to hack
+	
