@@ -1,0 +1,18 @@
+Wireless Encryption
+
+1. WEP --> Wired Equivalent Privacy
+	   --> can be cracked in 5mins
+	   --> 64 bits but can only use 40bits or 10characters password
+	   
+	   
+2. WPA --> Wireless (WI-FI) Protected Access
+	   --> same as 802.11i except the aes encryption
+	   --> downside is it can be cracked
+	   --> can be cracked about an hour or so
+	   
+3. WPA2 --> Wireless (WI-FI) Protected Access 2
+		--> it is extremely difficult to cracked a WPA2 network
+		
+	difference between wpa and wpa2 is wpa2 has turned on aes
+	
+	NOTE: WEP is very insecure -- DONT use it, WPA2 is the strongest wi-fi encryption --use it
