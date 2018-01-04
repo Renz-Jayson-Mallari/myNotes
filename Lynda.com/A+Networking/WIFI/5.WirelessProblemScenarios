@@ -1,0 +1,47 @@
+Wireless problems scenarios
+
+1. Interference -->
+
+>> Open up resource monitor --> search resource monitor on windows
+	>> it will only show that the speed is running at 1mbps or less. Well
+	
+	8084085627
+	47
+	
+>> Go to Network Sharing on Control Panel>> Network and Internet>> Network and Sharing Center >> 
+	>> Click the wifi name
+	>> now it will show the max Speed which is
+		Speed : 65Mbps
+		
+	Notes if the speed listed is seems lower than usual, it mostly a interference issue
+	Solution: kill the interference and run away from it.
+		>> killing the interference example > get rid of baby monitor
+											> find a baby monitor that runs on different bands 
+		>> run away from it > manually set the channel for your wireless access point to something
+							a little bit further away from everybody else.
+
+	Use Windows utility to check wireless speed
+	
+2. Other big issue that comes ALL the TIME
+	>> is when you log in to the new network 
+	>> its says that youre connected but you cant get to the internet.
+	
+	Resolution.
+	1. Check your ip address
+		> ipconfig /all
+			> if you have 169.254.X.X(APIPA address)
+			> this means that you type in a wrong password
+				>> dont use a wrong WAP password
+				
+3. You been working on particular network and suddenly you cant get on 
+		
+		> site survey >> wifi dropdown
+		> connection itself >> rightclick and properties 
+		
+	NOTES : > Interference can disrupt or slow wireless connections
+			> sourece of interference can include other WAPs, wireless mice and keyboards, and
+			micorwabes.
+			> remove sources of interference or change the WAP's frequncy to avoid interference.
+			
+		
+
