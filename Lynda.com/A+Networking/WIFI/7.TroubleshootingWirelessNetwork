@@ -1,0 +1,36 @@
+Troubleshooting Wireless Connections
+
+1. You didnt configure it right
+	-- make sure that you configurations is right.
+	
+2. Wireless antenna
+	-- move it and play a liitle bit to get mpre signal
+	
+	
+AP Isolation --> It will be able to hook up to wireless device and get to the internet
+		 and do whatever you want to do, BUT what you CANT do is SEE any othe computer
+			--> Useful for public network like coffee shop.
+			
+			
+TX power --> transmit power
+		 --> by default, the vast majority of wireless access points out theres do not transmit
+		 as hard as their radios will possibly allow them.
+		 --> install dd-wrt.com firmware.
+		 --> increasing the power will increase the range of discovery.
+		 
+3rd party antenna.
+
+Wireless MAC Filter
+			choices
+				--> prevent client listed from accessing the wireless network
+				--> permit only the client listed to access the wireless netwrok
+				
+	instead of using MAC filter you can setup a secondary ssid that you can turn on and turn off.
+	
+
+	
+NOTES :>> Make sure that your antennas are positioned to avoid interference
+		>> check the settings in your way configuration to ensure that arent on the 
+		wrong channel.
+		>> use the mac filtering to keep outsider off your wireless network
+		

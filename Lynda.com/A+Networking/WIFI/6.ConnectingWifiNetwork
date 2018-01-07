@@ -1,0 +1,18 @@
+Connecting to Wifi Netow0rk
+
+To verify if youre connected 
+
+run ipconfig or go to wifi properties
+	--> should have a legitimate ip address 
+		example 192.168.X.X
+		
+NOTE: If you type in a wrong password, It will not tell you that the password that
+	you have type in is wrong.It will not just gonna let you connect and as a result 
+	you will get a apipa(automatic private ip addressing) 169.254.X.X
+	
+	
+WPS --> Wifi Protected Setup
+	
+Notes : >> from windows, you can easily view all nearby wireless network
+		>> make sure you know the ssid and password for the network that you want to connect to
+		>> using wps to connect to a wifi network with a single button sounds great-- but dont use it
