@@ -1,0 +1,44 @@
+Dial-up Connections
+
+Example
+
+Windows XP 
+	>> Control Panel
+		>> Modem And Phone
+			>> Area code: 917
+				>> if you dial to acccess an outside line: 9, 
+					>> Tone Dialing 
+						^^ That will creat a location
+						
+	Add modem
+		>> Pick a modem : Standard 56000bps modem
+			>> COm2
+				^^ That will installed the modem
+				
+	Network Setup(dial up connections)
+		>> network connection
+			>> Create a new connection 
+				>> connect to the internet 
+					>> setup my connection manually
+						>> Connect using the dialuup modem
+							>> ISP name: IPS at home 
+								>> Phonr number: 7135551212
+									>> username: remz
+										pw :1234
+										confirm: 1234
+											>> finish
+											
+ISDN --> Integrated Service Digital Network
+	 --> runs at 128 kilobit per second
+	 --> digital signal
+	 
+	two choice
+	1. POTS
+	2. ISDN
+																
+				
+	Modem --> stands for modulator demodulator
+		  --> it took a serial signals that is coming off you telephone lines
+		  and convert it to digital parallel signals that your computer use.
+		  
+NOTES : >> ISDN can trnasfer data twice as traditional dial up connection

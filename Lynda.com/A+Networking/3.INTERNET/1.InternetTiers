@@ -1,0 +1,23 @@
+Internet Tiers
+
+Peering --> two company that lets each other traffic goes to their network without 
+		charging one another.
+
+Tier 1 company --> any company that is run basically by peering agreements.
+
+Tier 2 company --> has some amount of peering agreements but he also has to pay the tier1
+			connect to them.
+			
+Tier 3 company --> they are not paying for their own big lines, for most part this company
+			are paying either tier1 or tier2 companies access to the internet.
+			  
+ISP --> Internet Service Provider
+	--> tier1, tier2 and tier3 infrastraction are ISP.
+	
+	AN individual home or individual businesses that wants to connect to the internet
+	in general youre going to teir3 company which provides individualize internet connections
+
+	
+	NOTES: >> Tier 1 providers control the biggest and the highest-level internet connections.
+		   >> Tier 2 providers connect to a tier 1 providers
+		   >> Tier 3 providers are often internet service providers for consumers.

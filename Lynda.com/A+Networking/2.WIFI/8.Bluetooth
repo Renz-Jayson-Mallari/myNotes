@@ -1,0 +1,28 @@
+BLUETOOTH
+
+Profiles --> need certain functions
+		 --> OR provide certain functions
+		 
+		 example of profiles
+			Bluetooth headset provides a microphone and speakers
+			
+PAN --> Personal Area Network
+	--> bluetooth profiles
+	--> two devices shared data between themselves
+	
+	example 
+	phone and meanie cooper
+	has to match passkey fro both devices
+	
+	
+3 classes of bluetooth devices
+	--> it has to do on how far away they can be from each other and still keep the paring.
+	
+	class 1 		100 meter
+	class 2			10 meter	
+	class 3 		1 meter
+	
+	
+	NOTES :  >> Bluetooth is great for short-term connection with headset and cars
+			 >> there are multiple bluetooth profiles that control how the connections works.
+			 >> make sure that you know the three classes of blutooth
