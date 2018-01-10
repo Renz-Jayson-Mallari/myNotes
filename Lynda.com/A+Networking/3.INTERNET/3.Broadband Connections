@@ -1,0 +1,37 @@
+Broadband COnnections
+
+3 major types of broadband
+1. dsl --> Digital Subscriber Line
+	   --> telephone line or rj11 for connection (input)
+	   --> rj45 for output
+	   --> some box for connectivity of input and output.
+	   --> smallest or slowest among the broadband.
+	   --> upload speed is small percentage of the download speed.
+	   
+	   PPPOE --> point to point protocol over internet
+			 --> need to type in user name and pw
+			 
+	
+2. cable  --> cable is lot faster than dsl
+		  --> coax connection (input)
+		  --> rj45 for output
+		  --> some box for connectivity of input and output.
+		  
+3. fiber --> fiber optic connection cable (input)
+		 --> rj45 for output
+		 --> some box for connectivity of input and output.
+		 
+	NOTE : DSL people didnt like to being totally upsurped by cable and as a result
+		they came out with the competito cable called fiber.
+		
+	2 major competitor of fiber her in USA
+	1. FIOS --> Verizon
+	2. U-verse --> AT&T
+	
+	NOTES: This a really DSL connection but they are extremely high speed DSL so you cant use 
+	your phonelines 
+	
+	NOTES: >> DSL is the slowest broadband connection and it connects to a phone line.
+		   >> Cable is the next fast broadband connection and it uses coaxial cable.
+		   >> fiber-optic cable is the fastest broadband connection and it uses fiber-optic cabling.
+		   
