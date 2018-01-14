@@ -1,0 +1,25 @@
+Wireless Internet Connection
+
+1.Cellular WAN --> GSM (popular form 3G) 
+			 --> LTE (popular form 4G)
+			 
+
+	LTE --> Long-Term Evolution
+		--> about 30 mile range and it jumps from cell tower to cell tower
+	WIMAX --> Worldwide Interoperability for Microwave Access
+		  --> about 30 mile range and it jumps from cell tower to cell tower
+		  
+2. 802.11 --> wireless access point
+
+	MAN --> Metropolitan Area Network
+	
+3. Stellite --> slower that any other technology
+			--> huges advantage now matter where you are no matter what are you doing
+			you can always connect to satellite.
+			
+	NOTES >> LTE is the primary 4G protocolfor cellular internet connection.
+		  >> MAN are usually built from 802.11 hotspot.
+		  >> Satellite technology are relatively slow, but available from any places
+		  with clear view of the sky.
+		  
+	

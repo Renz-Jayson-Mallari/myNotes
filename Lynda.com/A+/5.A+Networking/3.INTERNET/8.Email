@@ -1,0 +1,45 @@
+EMAIL
+
+3 protocol
+1. SMTP - Simple Mail Transfer Protocol
+		- uses port 25
+		- its use for you to send email.
+		- you use smtp to send your email.
+		- compter > email client > send to port 25 > send to smtp server 
+		> smtp send it to the next guy.
+		- to download the emai from smtp server you can use either of the ff protocol
+			
+			1. POP3 - Post Office Protocol
+					- port 110
+					- folders are created on the client side.
+			
+			2. IMAP	- Internet Message Access Protocol 
+					- port 143
+					- allows you to create folders and such up on the server.
+					
+		-its not up to you its ever what you email server uses.
+		
+	Samle setup of EMAIL sever (Mozilla Thunderbird)
+		>> create a new account
+			>> Skip the offer of email server from someboby
+			>> Name: Renz Mallari
+			>> Email : renz@totalsem.compter
+				--> should be provided by the email administrator
+			>> PW: Password
+			>> continue
+			>> done
+			
+	Manual Setup								port		SSL			Authentication
+	Incoming Email : IMAP	mail.totalsem.com		143			None		Autodetect
+					 POP3						110
+			Outgoing: SMTP	mail.totalsem.com	25			None		Normal Password
+			
+			
+	NOTES >> SMTP --> sending --> port 25
+		  >> POP3 --> receiving --> port 110
+		  >> IMAP --> receiving --> port 143
+			
+			
+			
+	
+			

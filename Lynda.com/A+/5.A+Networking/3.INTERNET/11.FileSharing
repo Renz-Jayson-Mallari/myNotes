@@ -1,0 +1,29 @@
+File Sharing
+
+Steps 
+	>> Network Connections
+	 >> Properties
+	  >> Turn on file and printer sharing for microsoft(default)
+		> most network most machines are server and clients simultaneosly.
+		
+NetBIOS/NETBT --> netBIOS oevr IP
+
+SMB --> Server Message Block
+	--> Sharing files, folders and printers
+
+CIFS --> Common INternet File System.
+
+Use TCP veiw OR netstats
+	--> click or check local port
+	
+		ON TCP view goto OPTIONS and unchecked resolved adresses
+		
+	PORTS 137, 138, 139 CIFS/ Netbios over IP
+	PORT 445 SMB
+	PORT 548 Apple Filing Protocol (AFP)
+	SAMBA --> Linux machine and reverse engineer from SMB
+	
+	
+	NOTES:  >> NETBIOS OVER IP/CIFS >> port 137, 138, 139
+			>> SMB >> port 445
+			>> AFP >> port 548

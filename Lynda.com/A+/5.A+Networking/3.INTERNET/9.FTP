@@ -1,0 +1,27 @@
+FTP
+	--> File Transfer Protocol
+	--> runs offciailly on port 21
+	--> it can also run at port 20
+	
+	
+	FTP Client ( Mozilla Filezilla) download
+	
+	example
+	
+	host: ftp.ubuntu.com	Username: anonymous		Password: 1234		Port: _ Quickconnect
+	
+	LocalSite "this is your computer"			RemoteSite: "ubuntu file server"
+	
+	" drag and drop to copy the files from the server to local computer "
+	
+	Downside: No encryptions
+	
+	Alternative to FTP: 	SFTP --> Secure File transfer protocol
+								 --> runs traditionally on port 22
+								 
+								 
+								 
+	NOTES:>> FTP uses port 20 and 21
+		  >> SFTP uses port 22
+		  >> Using an FTP client like Filezilla can make FTP transfer a lot easier to manage.
+			

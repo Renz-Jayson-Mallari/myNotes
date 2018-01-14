@@ -1,0 +1,19 @@
+HTTP
+	--> hyper text transfer protocol
+	--> uses port 80
+	
+HTTPS
+	--> hyper text transfer protocol secure
+	--> uses port 443
+	
+	run 
+		>> netstat -f
+			--> -f means I want to completely resolve the domain names.
+		>> netstat -n
+			--> will show all the numbers.
+		>> netstat -a 
+			--> means every active port whether its actually connected to anything or not.
+			
+	NOTES >> HTTPS port 443
+			 HTTp port 80
+			 easy to install a web server on any computer.

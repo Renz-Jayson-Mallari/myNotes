@@ -1,0 +1,32 @@
+Telnet and SSH
+
+Telnet --> is basically a remote terminal emulator that lets you get into somebody else's 
+		command line.
+	   --> Telnet is pretty pretty old  and its a little bit unsecure so we used something else
+	   called SSH.
+	   --> allows us to remote into someone else command promt.
+	   
+	   on CMD
+	   
+	   >> telnet
+	   >> open 192.168.4.41
+	   >> login : renz
+		  pw: renz
+		  this will bring you to someone else CMD.
+		  
+		Telnet uses port 23.
+		
+		DOWNSIDE :  completely unsecured
+					
+					
+SSH --> connect on someone else CMD and encryptes the data.
+	--> windows doesnt have a built in ssh client
+	--> we have to use the very famous PUTTY.
+	
+	SSH uses port 22
+	Hostname : 192.168.14.41
+	
+	
+	NOTES >> Telnet is an unsecured remote connection utility that uses port 23
+		  >> SSH is a secure terminal that encrypts data
+		  >> SSH uses port 22

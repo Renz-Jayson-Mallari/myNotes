@@ -1,0 +1,28 @@
+Internet Application
+
+2 form's og communication
+1. TCP-based application
+
+	TCP connection --> uses the handshake to verified that the sender(PC) and reciever(PC)
+		both ready before they begin sending data.
+				   --> uses for more reliable data.
+		
+	
+		
+2. UDP-based application --> use when youre not so worried about the data.
+						 --> the client will just shoot the data into the server. It 
+						dont matter if the server is ready or not it will get it.
+						--> connectionless.
+						--> uses for small number of utilities when just want to send the data
+						--> UDP is a lot faster than TCP.
+						
+	Example
+		TO: 192.168.15.44
+		TO: port 80
+		
+		FROM: 192.168.15.201
+		From: port 14269
+		
+	NOTES >> A TCP Connections ensure that the sender and reciever has a good connection
+		  >> UDP do not check for the reciever, they just send data either way.
+		  >> Internet Applications use ports to ensure that the data is sent and recieved properly.

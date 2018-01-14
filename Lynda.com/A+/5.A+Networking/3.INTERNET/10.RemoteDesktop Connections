@@ -1,0 +1,45 @@
+Remote Desktop Connections
+
+1. Telnet - you can use putty
+		  - uses port 23
+		  
+		BIG ISSUE: >> You can only work on command prompt.
+				   >> no encryption
+				   
+2. SSH - you can use putty
+	   - runs on port 22
+	   - looks exactly the same as telnet however it is completely encrypted.
+	   - it can work as Secure FTP kind of tools
+	   
+3. RDP - Remote Desktop Protocol(comes with Windows GPU)
+	   - runs on port 3389
+	   
+	   goto computer >> remote settings >>
+	   
+	   Remote Assistance - gives you the ability to contact somebody to access your computer
+	   Remote Desktop - Allow Connections only from computers runnign 
+						Remote Desktop with Network Level Authentication
+						
+	Stpes to remote in
+	1. Open up rdp connection
+		all porpgrams >> accesories >> remote decktop connection
+		
+	OR
+	
+	2. type in " mstsc " 
+	
+	3. type in the ip or computer name
+	
+	4. type username and password
+	
+	Difference between remote assistance vs remote desktop
+		--> with remote assistance , the person sitting at that far computer can actually see 
+		your mouse move around.
+		--> with remote desktop, other than checking a few particular places, they wouldnt eeven know
+		that youre there.
+		
+		
+		NOTES >> telnet uses port 23
+			  >> SSH uses port 22
+			  >> RDP uses 3389
+		
