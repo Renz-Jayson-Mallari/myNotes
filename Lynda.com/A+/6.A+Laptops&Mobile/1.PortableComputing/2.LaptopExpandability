@@ -1,0 +1,47 @@
+Laptops Expandability
+
+Mini PCI --> wireless netwotk card
+		 --> mostly has two mini PCIe slots
+		 --> WLAN( wireless card) WPAN (bluetooth radio)
+		
+SO Dimms --> laptops memory sticks.
+
+Docking statito connectors --> video
+						   --> wired ethernet connection
+						   --> ps2 ports for mice or Keyboeards
+						   --> keep in mind that docking station are proprietary
+						   to particular makes and models of laptops.
+						   
+Port Replicator --> is based exclusively on USB ports
+				--> basically kind of USB hub so you can plug in a mice and all kind
+				of USB stuff.
+				--> downside is because its USB its hard to plug a big monitor
+				or something like that which is very easy to do with a docking station.
+				--> good thing is you just buy a port replicator and it work pretty 
+				much in any computer.
+				
+PCMCIA --> expansion card that goes on the side of the laptop.
+		no drivers to install, you just push it in and it works.
+	   --> w/c we jokingly always said "PC makers create Idiotic acronyms".
+	   --> 16 bit type of connectors .
+	   --> tyep1 thin, type2, thicker and type3 is the thikest.
+	   
+PC card --> expansion card that goes on the side of the laptop.
+		no drivers to install, you just push it in and it works.
+		--> comes few year later 
+		--> 32 bit connectors
+		--> still kind of slow.
+
+Express cards --> comes with two different width.
+			  --> 34 millimeter, and 54 millimeter.
+			  
+			  
+NOTES : There are often spaces inside your laptops for more 
+		RAM, HDD, Optical drives, and more.
+		
+		>> the earliest expansion cards are PCMCIA and PC cards
+		>> more modern expansion cards include expresscards, although 
+		even it might be on its way out.
+		
+
+						   
