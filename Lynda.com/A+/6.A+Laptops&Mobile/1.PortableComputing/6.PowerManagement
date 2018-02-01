@@ -1,0 +1,47 @@
+Power Management
+
+APM --> Advanced Power Management
+
+ACPI --> Advanced Configuration and Power Interface
+
+ACPI ON --> Everything is running.
+
+States
+1. On but not doing anything
+2. turn off things, like monitor or HDD
+3. ACPI Sleep
+	--> keep the RAM powered and shuts off all other system.
+	--> also called standby
+4. ACPI Hibernate --> saves RAM to disk then Powers OFF everything
+5. ACPI Hybrid --> saves RAM to disk but keeps RAM powered for rapid boot.
+
+POWER PLANS
+	Control Panel >> Power Options
+	Power saver --> shut downs everything fast.
+	Balanced --> microsoft whats the best way to do stuff
+	High performance --> barely turns off anything at the end. It turns off the monitor.
+	
+	Change plan settings.. --> to messed up of the  above settings.
+	
+	Laptop hybrid sleep is OFF by default
+	desktop hybrid sleep is ON by default
+	
+	Controlpanel>> all panel settings>> power options>> system settings
+	
+	Controlpanel>> all panel settings>> power options>> Create a Power Plan
+	Create a custom Power Plan
+	>> High Performance
+	Name : Renz Plan
+	Makes all the changes that you want to do.
+	
+	NOTES >> All power management system that is setup in the BIOS are ignored by the OS
+	except wake on LAN
+	
+	wake on LAN --> PC wakes up when there is a LAN activity.
+	AC Back --> if the power goes out it will not automatically restart the computer
+	
+	NOTES >> APM and ACPI
+		  >> Sleep vs hybernate vs hybrid
+		  >> wake on LAN and othe BIOS Controlled trigger
+	
+	
