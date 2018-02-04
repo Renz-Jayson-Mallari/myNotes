@@ -1,0 +1,65 @@
+What is mobile Device
+
+Mobile Device --> roughly handheld
+			  --> something that you can hold and try at least halfway operate.
+			  while holding it in one hand.
+			  --> its a sealed device, I cant get to it and change RAM.
+			  --> consider a sealed device and not a field replacement.
+			  --> full of all kinds of cool "sensors"
+				>> GPS  --> Global Positioning System
+						--> you can tell your location at the given moment.
+				>> Compass --> tell which direction youre heading.
+						
+				>> Accelerometer --> are really good on one directional movement
+				
+				>> Gyroscope --> really2x nice for 3D(three-dimesional) HD(highly-detailed ) movement.
+				
+				>> Camera --> take image/picture or video.
+				
+				>> ambiant light sensor --> mobile device can tell how light or dark it is outside.
+				
+			  --> mobile device runs on specialize OS(operating system) that are design to work only for them.
+				>> example android --> google android
+						   Apple --> IOS
+						   Windows --> different variations of Windows mobile.
+			  
+			  --> A mobile OS is designed to use a touchscreen.
+			  
+			  --> Application are avilable on some kind of APPs Store.
+			  
+	Subclasses of Mobile Devices.
+	
+	1. PDA --> Personal Digital Assistant
+		   --> ran a version of Windows Mobile
+		   --> it dont have wireless, it certainly not a telephone.
+		   
+	2. Smartphone --> has mobile OS, wifi, phone capability.
+	3. Tablet --> has MObile OS, usually bigger than smartphone
+	4. Phablet --> it works like smartphone but its huges
+			   --> sort of a transitions between a smartphone and a tablet.
+			   --> it is always be a phone.
+	5. Purposely Built mobile devices. --> example e-reader
+										>> designed with paper white, designed to be read very very clearly
+										>> has wifi capabilty.
+									   --> fitbit suage fitness tracker
+									    >> designed to help loose weight.
+										>> has a heart rate monitor.
+										>> has GPS function.
+										>> measure calories and steps with accelerometer.
+										
+	6. Wearable Device --> examle 
+							>> Google glass > 
+							>> Apple watch > can check mails
+										   > do word docuemnt.
+										   > can talk on some of them.
+										   > has GPS
+										   
+	NOTES >> portable and hybrids run desktop OS, mobile devices runs DSS designed for touch screens.
+	      >> mobile devices are packed with sensors.
+		  >> some mobile device subclasses: smartphone , pablet, tablet, wearable device and dedicated.
+										   
+			  
+			 
+			 
+			
+								
