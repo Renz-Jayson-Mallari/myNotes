@@ -1,0 +1,45 @@
+Three threats to you PC
+
+BIG 3 
+1. RFI --> Radio Frequency Interference
+	   --> intereference on different level of radio waves.
+	   --> 
+	   
+2. EMI --> electromagnetic Inteference
+	   --> is basically a large magnetic wave in places they shouldnt be.
+	   --> wiping hard drive using the processthey call degousy
+	   using magnet to erase data on the harddrive.
+	   --> EMI will destroy the data but will not destroy the drive itself.
+	   
+	   
+3. ESD --> Electrostatic Discharge
+	   --> ESD is the static shock when you touch the doorknob.
+	   --> The biggest thing to remember about ESD is you dont want ESD to happen.
+	   --> ESD simply means that you have two different things that have deifferent electric potentials.
+	   And when they come in contact to each other, one discharge into the next.
+	  
+	NOTES >You should always unplug the computer before you start working on it. The reason is because your computer
+	has a ground plugged into the wall.So when youre working on your computer you have the ultimate ground. The perfect 
+	ground coming from the power company.So when you unplugged the only thing you have to worry about is the difference
+	between that which youre working on and you and then the other parts that come around.
+	
+	Prevent Electrostatic Discharge
+	1. Touch the metal case OR Power SUpply to ground yourself.
+	 > Everytime youre working inside the computer just make a point to touch the metal case. Perferably the power supply.
+	 > If you want to do it really right you can USE anti ESD equipment.
+	
+	2.  Anti ESD mat and Wristbands
+		in general, ESD is only a big risk when it comes to CPU's and RAM's.
+	
+	3. Anti Static BAgs --> anythime you buy a new piece of equipment variable its going to come in a box,
+					and it's gonna be wrapped in the wonderful stuffed call anti static bag.
+					    --> you can temporary seats something down on an anti-static bag.
+						--> when youre transporting the equipment, youre supposed to carry it inside the anti-static bag.
+	
+	4.Anti Static Foam --> lay the equipment on top of anti-static foam.
+					  
+	NOTES > Three treats
+			1. RFI (Radio Frequency Inteference) can disrupt wireless signals.
+			2. EMI (Electromagnetic Interference)  can damage data stored in the hard drive.
+			3. ESD (Electrostatic Discharge) can destroy PC equipment if you dont use anti static devices.
+
