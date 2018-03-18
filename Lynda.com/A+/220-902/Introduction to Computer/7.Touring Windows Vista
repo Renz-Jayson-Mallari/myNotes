@@ -1,0 +1,28 @@
+Touring Windows Vista
+
+System tray or Notification Area --> Icons on the bottom right corner.
+
+Windows sidebar and gadgets --> to open up goto start button >> search for windows sidebar.
+							--> it will be on top right corner.
+							--> to add gadget >> right click on the sidebar >> add >> select gadget.
+							--> to close >> right click and close.
+							
+User Account Control (UAC) --> Are you sure promt if youre login as administrator, otherwise you cant do it.
+						   
+	How to turn ON and OFF UAC in Vista?
+		>> Control Panel >> Classic View >> User Accounts >> Turn User Accounts Control Panel ON or OFF
+		
+	Administrative Tools
+	>> Control Panel  >> Classic View >> Administrative Tools 
+		
+		Applets Started with Vista
+		1. Control Panel >> Classic View >> Administrative tools >> Memory Diagnostic Tools 
+		2. Control Panel >> Classic View >> Security Center
+		
+		
+	NOTES >> WIndows Vista uses the familiar desktop and start menu interface.	
+		  >> User Account control was introduced with Windows Vista
+		  >> CompTIA expect the control panel to be classic view
+		  >> 
+		  
+		
