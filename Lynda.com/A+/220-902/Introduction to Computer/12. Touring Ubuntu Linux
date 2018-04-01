@@ -1,0 +1,63 @@
+Touring on Ubuntu Linux
+
+Linux
+	> consider by many people as a nerdy Operating system.
+	> Windows and OS X(10) are close or proprietary Operating System. These are developed and compiled and put together and hanaded
+	to you by either Microsoft or Apple. You cant look at the code and they set everything up for you.
+	> Linus ia an open source or open operating system. That means you can read all the original codes before its compiled. You can
+	recomplied it if you want to. You can change the code, you can do anything you want and it is completely, totally , 100% free.
+	With the couple of small exceptions that pop up from time to time.
+	> Linux is really just the kernel itself, its the core main files that make up the operating system. The kernel does stuff  like 
+	tals to different applications that are being fire up and runs multitasking. The kernel gonna do things like talk to memory. Its 
+	gonna tal to your file system and grab files and stuff like that. 
+	> Linux by itself is not a complete operating system.
+	> There are 100 of thousands of file system and ways to talf to the network and applications and desktops and all kind of stuff 
+	that are written under freeware licensing program known as GNEW, which means GNEW(Ghenew) not Unix.
+	
+	
+> Technically the General Public License V2 for the Lawyers.
+
+> DISTRO > Distribution
+		 > is nothing more than  one person's, one group's one organization opinion of how you take Linux and all this different GNEW
+		 different type of tools and put it together into one fully functional thing called Linux.
+		 
+Different Popular Distros
+1. Debian - www.debian.org
+		  - everything is being free.
+
+2. OpenSuse - www.opensuse.or
+
+3. Fedora - getfedora.org
+		  - redhat
+
+4. Ubuntu - www.ubuntu.org
+
+5. rasbian - rasberrypi.org
+
+6. android - android.com
+		   - distros developed by google.
+	
+Desktop	
+1. Gnome - one of the oldest desktop environment around.
+	  - a lot of distros use it(ex. redhat
+
+2. KDE - was once Gnome's major competitor.
+	   - more complex and has a lot of mini windows-like features.
+	   - use by OpenSuse
+
+3. Unity - ubuntus' idea on what a desktop should be.
+
+4. Mate - Use by Rasbian.
+
+
+Ubuntu with Unity Desktop 
+> Launcher  > left side desktop bar
+			>Home button> search for teminal > will show teminal > click to start. > You can drag and add it on the launcher
+			
+			>System Settings > to change preferences like wallpaper and stuff like that.
+			
+Review >> A Distro is a Linux system that has been pre-configured and is ready to install and use as a desktop operating system.
+
+	   >> there are numerous Linux Distros to try, each with their own take on what makes a good desktop inteface.
+	   
+	   >> Uduntu default interface is called Unity.

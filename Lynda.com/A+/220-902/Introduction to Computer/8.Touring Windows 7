@@ -1,1 +1,105 @@
-Touring Windows 7
+Touring Windows 7 --> 2009
+
+>> PART1 
+
+AERO Desktop >> cool 3d and trasparency funtions
+
+FLIP 3D >> window key + tab
+
+NOTES >> AERO desktop needs 128MB Video Memory + DirectX 9
+
+	TURN ON and OFF AERO Desktop
+	>> right click on the desktop >> Personalize >> AERO Themes Selected ON
+	>> right click on the desktop >> Personalize >> Basic and High contrast theme Selected OFF
+	
+	Gadgets on Windows 7
+	to add  >> right click on the desktop >> select gadgets
+	
+	User Account Control(UAC) windows 7
+	Control panel >> User Accounts >> Change User Accounts Control Settings
+	
+	1. Always Notify me when >> the shield icon next to the selections tell you that 
+							to be able to use it you need elevated previledges
+						
+	2. Defaul Notify me when programs try to make changes to my computer
+	
+	3. Notify me only when programs try to make changes to my computer (do not dim the desktop)
+								>> almost useless
+								>> act just like a reminder.
+								
+	NOTES >> The transparency effects in windows 7 are called AERO desktop.
+		  >> windows 7 gadget can be placed anywhere on the desktop.
+		  >> UAC  in windows 7 has 4 levels, vista only has On and OFF.
+		  
+		  
+>> PART 2
+	Control Panel>> 
+	
+	>> Catergory view
+	 >> Small Icons
+	  >> Action Center
+		--> on Vista it has security center, and on windows 7 it has action center
+		--> it is a step above Security Center when talk about firewalls and antire malware things like that.
+		
+	  >> Event Viewer
+		--> if something interesting happens, a log file is created.
+		>> Windows Logs
+			>> Application
+				ex . SLUI notification schedule modify schedule type 1. IDK
+					>> but what I can do, is if Im talking to second-level tech, or if Im doing a google search, I can type that event in
+					and there are 500 different website that simply says: Ohh that means blah blah blah
+			>> Security
+					>> will show all type of security issues
+					ex. failed to logon.OR if the user login properly.
+			>> Setup 
+					>> stuff that has to do with the setup in windows.
+			>> System 
+					>> Anything that has to do with the core operating system.if theres a problem its gonna show up under this view on Event Viewr.
+					
+	Windows 7 Compatible Mode
+	
+	Compatiblity mode >> simply means telling windows to run a program as if it were an earlier version of Windos running.
+	
+	ex . right click on paint>> properties>> compatibility>> only work if the porgram is not made by microsoft.
+	ex. right click on cpuz >> properties>> compatibility >> run this program in compatibility mode for select the windows you wanted to setup with
+		>> go research online to check which compatibility mode does the application match with.
+	NOTES>> other way to find out the compatibility mode
+		>> rigth click on cpuz >> troubleshoot compatibility >> this will make recommendations >> try reccomendation settings>>
+		
+	NOTES >> The Action Center replaces and enhances vista's Security Center
+	      >> Event Viewer is sprawling, but focus on the windows logs  for the test.
+		  >> compatibility mode is only available on the third party program.
+		  
+		  
+>> Part 3 
+	2 types of organizations
+	1.workgroup
+	2.windows domain
+	
+>> Libraries and homegroups
+	1. Library >> is nothing more than a preset organized piles of folder.
+		Libraries = commonly shared folder, like document and music.
+	
+	2. Homegroup >> is kind a like halfway betwen a workgroup and a domain.
+				>> homegroup are extemely automated, pretty much just turn on and they go.
+				>> homegroups interestingly enough only run on IPV6. not the old school ip addressing.
+				
+	homegroup setup example
+	
+	1>> control panel >> network and sharing center >> homenetwork/worknetwork/publicnetwork
+		>> homenetwork and worknetwork are preety much the same on how their firewall  setting are.
+		>> a public network is basically saying that im on public , dont share anything.
+		>> if you pick a homegroup you have a opportunity to create a homegroup.
+		
+	Notes for homegroups>> windows 7, has to be running IPV6 which it does by default.
+					an you have to set the network as home.
+					
+	task Manager
+	ctrl+alt+esc >> will bring you straigh to task manager
+	
+	Resource Monitor >> consentrates on a lot of details on about how your system resource, your cpu, your ram ,your HDD 
+	
+	NOtes >> Homegroups require IPV6 and the network location set to home
+			>> task manager lets you quickly end badly behaving apps
+			>> resources monitor gives you detaild monitoring fo system performance
+			
