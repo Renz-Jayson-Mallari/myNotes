@@ -1,0 +1,42 @@
+Understanding Partitioning
+
+> Boot Partition
+
+> Recovery Patition
+
+1. Create 
+
+2. Mounting
+
+> All drives have at least one partition.
+
+> 2 different types of Partitioning
+	
+	1. MBR - Master Boot Record
+		   - 1980's
+		   - consist of 2 big pieces
+				1. boot loader
+				2. partition table
+		   - maximum of 4 partitions
+				1. where the partition starts
+				2. where the patition ends
+				3. what kind of partition (information in the partition)
+		   - it couldnt support a single patition bigger than two terabytes.
+	
+	NOTES >> primary partition - simply mean I can put an OS on it. 
+		  >> boot loader - tiny little bit of code and hes at that very specific spot at LBA0 
+	      >> Active partition - to tell the system on which partition to go to find the OS.
+		   
+		   
+	2. GPT - GUID Partition Table
+		   - consist of 
+				1. protective MBR
+				2. Primary GPT header - GPT bootloader
+				3. after that are all the diff. GUID paritition entries
+				   - the GPT can have unlimited entry.
+				4. Secondary GPT Header - end of the drive 
+				                        - backup copy (repair system that have corrupted table.)
+											
+	>> Review >> MBA was the original PC Partitioning System.
+			  >> MBA is limited to (2TB) primary partitions.
+			  >> GPT is the MBA's replacement and supports much bigger, and many more partitions than MBA.
