@@ -1,0 +1,25 @@
+RAM Sticks and Speeds
+
+> Capacity > how much RAM is on my hand
+> Speed > How fast is this RAM
+
+> SDRAM - Synchronous DRAM
+		- 168 pins DIMM (Dual In-Line Memory Module)
+		- 2 notches
+		- Synchronize to the system clock.
+		
+> DDR( Dual Data Rate) SDRAM 
+		- 184 pins DIMM
+		- 1 notch
+		- it too the mobo speed and in essence double it.
+
+> DDR 2 - 240 pins DIMM
+		- 1 notch
+		- PC Speed multiply by 8
+		
+> DDR3 - 240 pins DIMM
+	   - 1 notch
+	   
+Review	>> To do anything on you PC, A program must be loaded into RAM
+		>> DRAM and SDRAM were earlier, slower forms of RAM
+		>> Modern RAM comes in DDR, DDR2, DDR3 varieties

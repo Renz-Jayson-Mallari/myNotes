@@ -1,0 +1,37 @@
+Virtual Memory
+
+> Swap File(OR Page File) > his job is to act a virtual memory.
+						  > its a file that act as virtual memory
+						  > Windows taking the process from the ram and copying it on the swap file to creat room in the RAM
+						  > even the program is on the SWAp file it will still show up on the screen.
+						  > it looks for the programs that is on the least use.
+						  > swap file is trigger when you dont have enough memory to run another program
+						  > windows by default that the swap files is always running
+						  > you use virtual memory because you run out of RAMS
+						  
+						  
+> Disk Trashing > hard drive light goes flashing
+			    > its telling you that the swap file sis being use.
+				
+
+Windows XP
+	
+	>To see the pagefile 
+		> Start > cmd (need to be on the root directory) cd \ > dir /ah (show me all the files with hidden attribute) > pagefile.sys
+
+	> to adjust the pagefile
+		> Start > Control Panel > System > Advanced > Performance (Settings button) >Advanced > Virtual Memory (Change Button)
+		> by default 768MB
+		> recommended to be on
+		
+Windows 7 > to open and see is the same as XP
+		  > by default Automatic manage paging file size for all drives paging file size for each drives
+		  > can be very very large or very very small
+		  
+		  
+>> Review >> When your pc runs out of physical memory, it moves program into a temporary space called virtual memory.
+		
+		  >> to control virtual memory from within the windows, goto control panel (system) advanced( system settings) performance
+		  
+		  >> if your pc is using virtual meory too often, you should buy more ram.
+	

@@ -1,0 +1,26 @@
+Power Protection
+
+Issues
+
+> Power Spikes and Suage - when we have more voltage than we suppose to have.
+						 - so we go way past 120 voltz.
+						 
+> Power Sags and Brownouts - is when we dont have enough voltage, and then overtime we start to see 
+						   where we dont get up to 120 and as a result of that, we can a problem  with 
+						   that as well.
+						   
+Solution - Use surge suppressors
+
+Surge Suppressors - the idea, if you had a choice between getting a spike or a sag, you always  want to have a sag.
+				  - spike will destroy stuff, sags will just turn thing OFF.
+				  - so we use surge suppressors to eliminate spikes.
+				  
+UPS (Uninterruptable Power Supply)
+	- nothing more than a surge suppressors with a built in motorcycle battery  on most of these.
+	- surge suppressors is meassure in joule, a joules is a Watt / second.
+	- a little UPS like this is probably gonna be about 2000  joules, that mean it can provide 2000 watts/second.
+	- in reality your system only using a couple of 100 watts at any given moment.
+	
+	>> Review 	>> Avoid cheap power protection products because most dont work very well.
+				>> Use surge suppressors to protect your PC from power surge and spikes.
+				>> Use an Uninterruptable Power Supply to protect your PC from Sags, brownouts and blackouts.

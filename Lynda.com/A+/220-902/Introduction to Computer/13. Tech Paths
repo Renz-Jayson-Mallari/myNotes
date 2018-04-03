@@ -1,0 +1,67 @@
+Tech Paths
+
+> Paths to Essential Tools in Windows Vista
+	
+	> System Tools
+		> Start Menu > All Programs Accesssories > System Tools
+	> Control Panel
+		> Start Menu > Control Panel > Device Manager
+									 > Administrative Tools
+									 
+									 
+> Paths to Esssential Tools in Windows 7
+	
+	>System Tools
+		> Start Menu > All Programs  > Accessories > System Tools
+	> Control Panel > Alphabetical Order
+	
+		>Start Menu > Control Panel > Device Manager
+									> Administrative Tools
+									
+> Paths to Eseential Tool in Windows 8/8.1
+
+	> Control Panel
+		> Power User Menu > Right click on the start Menu (8.1) > Control Panel > Administrative Tools
+					> Hold on Windows Button (8)						  > Device Manager
+					
+	> System Setting
+		> Metro UI > Hover right > Search > System Settings
+		
+	> Power User Menu
+		> Right Click on the Start Button
+	
+> Path to Essential Tools in Windows 10
+
+	>Power User Menu
+		> Right click on the Start Button
+		
+	> Control Panel 
+		>Power User Menu > Control Panel
+		
+	> PC Settings
+		> Metro Destop UI> type PC Settings > Settings
+		
+
+	Search > devmgmt.msc > Enter > This will bring you to Device Manager
+	
+> Path to Essential Tools in Ubuntu 
+	> Pretty much all Unix Distros will have System Settings
+	
+	> SYstem Settings > Startup Bar on the left Side
+	> Use terminal
+	> Goto the properties of the Specific device.
+	
+> Path to Essential Tools in OS X(10)
+
+	> System Preferences > click on the gear Icon on the dock
+	
+	> Utilities > Application > Utilities > If it isnt on System Preferences it will be in Utilitis Folder
+	
+	
+>> Review >> Accessing System Tools and Control Panel is Similar on Vista and Windows 7
+		
+		  >> The Power Users (Quick Linx) menu provides fast access to the most system utilities on Windows 8/8.1 and 10
+		  
+		  >> In Ubuntu, use the SYstem Settings for basic Configuration
+			 on OS X(10), most COnfiguration takes place in the System Preferences
+	
