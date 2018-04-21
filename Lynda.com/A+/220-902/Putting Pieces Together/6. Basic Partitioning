@@ -1,0 +1,53 @@
+BAsic PArtitioning
+
+MBR - Master Boot Record
+	- Maximum of 4 partitions
+	
+	>> Goto Disk Management
+	>> Unallocated - not setup in any way shape or form
+	>> regular volumes or simple volumes
+		steps MBR
+			>> right click on unallocated >> new simple volumes
+			>>next >> leave a max >> D >> leave a default NTFS format>> Finish
+			>> created a whole drive as one whole partition called D.
+			
+			>> right click >>> new simple volumes >> next
+			>> half of the volume example(1000000) >>  D >> leave a default NTFS format>> Finish
+			>> created half of the hdd as partition called D.
+			>> partition the rest of the drive >> same process
+			>> created half of the hdd as partition called E.
+			
+			>> 4 partition >> hdd devided into 4
+			>> Extended Partition and Logical Drive
+			>> the last partition will be call extended partition which can be devided to pass more than 4 partiition.
+			>> 3 primary and the last 1 is extended partitions
+			
+			>> maximum of 2TB
+			>> if you put a bigger than 2TB, the HDD size will be devided as 1 unallocated space has maximum of 2TB
+			
+		steps Partitioning with GTP
+			>> GUID Partition Table
+			>> Globally Unique Identifier (GUID)
+			>> open up regedit
+			>> 128 bits long
+			>> 32 hexadecimal character 32 hexadecimal characters
+			
+			>> right click on the left side where the disk number is (ex Disk 1)
+			>> Convert GPT Disk
+			>> the devided MBR will be 1 GPT 3.7TB unallocated space
+			>> can have larger that 2TB
+			>> new Simple Volume >> next >> max >> quick format default NTFS >> 
+			
+			>> 4 partitions >> same steps 
+			>> now they are all primary partiitons
+			>> can handle about thousands different partitions.
+			>> although most operating systems are limited  to about 128 partitions
+			
+	
+	>> Deleting volume is permanent, what ever is on partition when you deleted it will not be recovered.
+			>> right click >> delete volumes
+			
+			
+	>> Review >> MBA Partitions types: Primary and Extended
+			  >> Extended Parttions hold Logical Drives
+			  >> GPT allows volumes greater than 2TB and up to 128 volumes per disk

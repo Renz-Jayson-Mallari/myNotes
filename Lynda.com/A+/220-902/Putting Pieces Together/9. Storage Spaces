@@ -1,0 +1,51 @@
+Storage Space
+
+	> Implementing RAID
+	> Traditional 2 choices
+	  1. Hardware RAID - almost all mobo comes with built in RAID
+	  2. Software RAID - within Windows, like striping and mirroring
+	
+	> This versions of RAID are very static(fixed), once you set them up you cant really make any changes of them at all.
+	
+	Storage Spaces came out with windows 8
+	
+	Storage Spaces Windows 10 
+	> goto Disk Management
+	> 5 hard drives
+	> disk 1 disappear as it added to the pool on Storage spaces
+	
+	> goto Control Panel to Open up Storage Spaces
+	> create a pool ( minimum 1 to a lot of drives)
+	> then decide what kind of RAID do you want
+	> add 1 drive initially
+	> disk will disappear from disk management
+	
+	4 kinds of Resiliency
+	1. Simple > JBOD
+			  > Just a bunch of disk
+			  
+	2. Two way mirror > pretty close to classic RAID 1 mirror
+					  > minimum of 2 drives
+					  > whatever you put on one drive, you put it on the other.
+					  
+	3. Three way mirror > same as RAID 6
+						> minimum of 5 drives
+						> you can loose up to 2 drives before you loose your data.
+						
+	4. Parity > RAID 5
+			  > minimum of 3 drives
+			 
+	NOTES >> you cant use boot drive on Storage Spaces.
+	
+	Thin Provisioning > virtualize this pool
+					  > you can broadcast that you have 10TB from 1.8TB HD
+					  > once you almost use the 1.8TB you will get notify
+					  > you can add a HDD and continue to use it.
+					  
+	> create new pool
+	> put all 5 drives
+	> create pool
+	
+	REVIEW >> Storage pools
+		   >> Thin provisioning
+		   >> proprietary to microsoft

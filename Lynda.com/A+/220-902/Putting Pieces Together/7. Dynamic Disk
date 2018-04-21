@@ -1,0 +1,46 @@
+Dynamic Disk
+
+	> Predate GPT, but come after MBR
+	> we still use dynamic disk even on the most modern system.
+	
+	Disk Management 
+	> on the left under Disk 2, it says Basic.
+	> When you see basic on this Microsoft windows, that means this disk is NOT dynamic.
+	It just using the regular partition table, be it MBR or GPT.
+	> TO convert from basic to Dynamic
+		> right click on it > Convert to Dynamic disk. > It will ask which disk( ex. Disk 2) 
+		> Try
+			> make a simple volumes > microsoft says the limitations says around 2,000 volumes.
+			> Dynamic disk will give us a different color for simple volume.
+		
+		> You can Expand and Shrink volumes with Basic disks.
+		Steps
+		> right click > shrink > ok (for quick shrink)
+		> right click > extend > ok /next ( will extend for the rest of the hard drive).
+		
+		> Spanning
+			> it needs more than one drive.
+		Steps
+		> right click > spanned volume > select the drive > add > next > perform a quick format(check) > Finish
+			--> The operation you selected will convert the basic disk to dynamic, do you want to continue? > Yes
+		> spanned volumes is on purple bar
+		> ex. each of this has 1.8TB drives disk management
+		> both have the drive letter H
+		> on windows/ file explorer the H drive has 3.63TB
+		> we are taking two drives and making it look, act , bark, taste like one greatbig volume. 
+		
+		> Risky 
+		> what will do is start filling up the first drive, and its not until that first drive get full 
+		that the second spanned drive actually comes into play. If you loose either drive, youve lost everything.
+		
+		NOTE > Like Raid 0, Spanned drive are not fault tolerant.
+		
+		>Downside
+		> Once you convert a drive to dynamic, the only way you can convert it back to basic is to wipe all the volumes.
+		> right click > delete volumes > yes ( Deleted volumes
+		> right click > convert to dynamic disk.
+		
+		Review >> Volumes can Shrink or Extend within a disk on Basic disk
+				>> Spanning drives requires dynamic disks
+				>> Spanning offers no fault tolerance.
+		

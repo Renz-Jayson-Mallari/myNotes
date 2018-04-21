@@ -1,0 +1,44 @@
+
+
+CLuster > are multiple sector
+		> file allocation unit
+		
+
+File System
+
+> FAT > 16 bit file system - max capacity 32mb partition
+	  > the original file system
+	  > no file permission
+	  
+> FAT32 > Uses 32bit addressing up to 2TB partition
+		> maximum file size 4gb
+		> still popular on flash media
+		> no file permision
+		
+> exFAT > great for large memory
+		> up to 128pb partition and file size
+		> also known as FAT 64.
+		
+LINUX and Apple File system
+
+> ext3 > LINUX
+	   > 32TB partitions
+	   > unix style permissions
+	   
+> ext4 > LINUX
+	   > vasty improved ext3
+	   > performance data security
+	   > 1 EB partitions
+	   
+> HFS+ > apple
+	   > 8 EB partitions
+	   > Linux style permissions
+	   
+> NTFS > New Technology File System
+	   > the best file system out there
+	   > powerful granluar  file permisisons
+	   > 256TB partitions
+	   
+REview >> windows - Fat,fat32,fat64, NTFS
+		  linux - ext3, ext4
+		  apple/mac - HFS+

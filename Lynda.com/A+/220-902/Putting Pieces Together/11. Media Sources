@@ -1,0 +1,17 @@
+Media Sources
+
+1. Optical Media
+2. ISO -- blobk by block copy of trditionally optical media
+       - ISO9660 - defines as how you save data on optical media
+	   - can burn to optical media, put it thumb drives, can even use them on virtual machines
+	   - ISO is block block copy - an IMAGE
+	
+	Ways to get an ISO
+	1. Downloading
+	2. making an ISO
+	
+Making an ISO (Steps)
+1. Install Iso Burner CD/DVD
+2. Install ISO recorder CD/DVD
+3. USE RUFUS by AIKO for USB ISO's copy
+4. 
