@@ -1,0 +1,26 @@
+Windows Install options
+
+1. Regular old installation media > 
+2. Unattended Installation > is wrapped around the idea that you pre create a little text file. 
+							and this text file has all the answer
+							
+						Answer File >
+						Setup Manager >
+						unattended.txt
+3. Network Installation > 
+				PXE > Preboot Execution Environment
+					> PXE can be used for diskless workstation
+					> apple uses PXE for NETBOOT
+
+4. Image Deploy > 
+			Sysmantic Ghost > Ghost cast Server
+							> server that distribute all these images to all of my client machines
+			
+							> use ghost utility to create a boot flash drive 
+							
+							> boot client from flash drive and download/install image 
+							
+Review > Simple and unattended installation
+		> network installation
+		> image deployment
+		> 
