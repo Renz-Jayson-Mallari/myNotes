@@ -1,0 +1,13 @@
+Dealing with proceses
+
+Start task manager 
+1. left-control + shift+ esc
+2. search task maanger
+3. ctrl+ alt+ del+ select task manager
+
+cmd > type tasklist
+
+Review>> Know the many diffirent wayst to open up task manager
+	  >> Use task manager to view and kill processes
+	  >> You can also view task manager on command prompt using
+	  the tasklist command.

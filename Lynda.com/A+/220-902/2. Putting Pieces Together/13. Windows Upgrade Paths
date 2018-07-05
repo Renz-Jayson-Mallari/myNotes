@@ -1,0 +1,103 @@
+Windows Upgrade Paths
+
+> 1. Clean Install > wipe the hard drive and put in a new version of windows on it.
+				   > you can upgrade to anything
+				   > downside > everything is wipe out.
+				   
+  2. Upgrade Install > Install other version of windows but we keep of the application, files , etc.
+					 > you get new version of OS with all your stuff remains.
+					 
+  
+> Windows Versions
+	
+	> Windows Vista > came out 2006 until 2012
+				    
+	> Windows 7 > came out 2009 until 2015
+	
+	> Windows 8 > came out 2012 
+	
+	> Windows 8.1 > came otu 2013
+	
+	> Windows 10 > came out 2015 
+	
+	NOte > Microsoft generally doesnt let you upgrade more than one version up from where youre right now.
+		 > example windows vista to windows 7
+		           windows 8.1 to windows 10 
+				   windows vista > 7 > 8 >8.1 > 10
+				   exception windows 7 can be upgraded to windows 10 
+				   
+> Windows Editions
+
+	Home
+	> Windows Vista Home Basic
+	> Windows Vista Home Premium
+	> Windows 7 Home Basic
+	> Windows 7 Home Premium
+	> Windows 8 (Core)
+	> Windows 8.1 (Core)
+	> Windows 10 Home
+	
+	PRO
+	> Windows Vista Business
+	> Windows 7 PRO
+	> Windows 8 PRO
+	> Windows 8.1 PRO
+	> Windows 10 PRO
+	
+	Ultimate 
+	> Windows Vista Ultimate
+	> Windows 7 Ultimate
+	NOTE : only use for vista and 7
+	
+	Enterprise
+	> Windows Vista Business
+	> Windows 7 PRO
+	> Windows 8 PRO
+	> Windows 8.1 PRO
+	
+	
+	Upgrades 
+	
+	Windows Vista			Window 7
+	Home Basic 				Home Basic, Home Premium, Ultimate
+	Home Premium 			Home Premium, Ultimate
+	Business				Professional, Enterprise, Ultimate
+	Enterprise 				Enterprise
+	Ultimate 				Ultimate
+	
+	Windows 7 				Window 8
+	Starter					Window 8, Window 8 PRO
+	Home Basic 				Window 8, Window 8 Pro
+	Home Premium			Window 8, Window 8 Pro
+	Professional			Window 8, Window 8 pro
+	Enterprise				Window 8 Enterprise
+	Ultimate				Window 8 PRO
+	
+	Windows 7/8/8.1			Window 8.1
+	Windows 7 				Windows 8.1
+	Windows 8				Windows 8.1, Windows 8.1 PRO
+	Windows 8 PRO			Windows 8.1 PRO, Windows 8.1 Enterprise
+	Windows 8 pro 			Windows 8.1 PRO, Windows 8.1 Enterprise 
+	w/ Media Center
+	Windoww 8 Enterprise	Windows 8.1 PRO, Windows 8.1 Enterprise
+	Windows8.1				Windows 8.1 PRO
+	Windows 8.1 PRO			Windows 8.1 Enterprise
+	
+> 32bit vs 64bit
+	32bit cannot upgrade to 64bit , unless you do a clean install.
+	
+	NOTE : Use Upgrade Advisor when upgrading OS
+			Helps you determine if you can up[grade into particular
+			version of windows.
+			
+Review >> You can clean install or upgrade install
+		>> microsoft has complex limits on upgrade installs
+		>> use upgrade advisor whenever possible
+		
+	
+	
+	
+	
+	
+	
+	

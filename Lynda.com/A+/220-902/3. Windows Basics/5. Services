@@ -1,0 +1,12 @@
+Services
+
+2 places to go for Services
+1. Task Manager
+	ctrl+ alt+ esp
+	
+	cmd >> type >> Services.msc
+2. Services Control panel applet
+
+Review >> Services are invisible process that run in the background
+		>> you can view running services in the task manager
+		>>for more refined control, use the services applet

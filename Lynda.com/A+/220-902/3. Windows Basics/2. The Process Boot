@@ -1,0 +1,34 @@
+The process boot
+
+> C> Windows > System32
+
+Winload.exe > has one job and its to get the windows started.
+
+> Disk Management > Reserved Disk > MS prefer to get things booted.
+				
+
+> System Reserve partition > Reserve for booting
+							> right click> change drive letters and path> z >ok
+							> to allow us to take a look of it.
+							
+							>bootmgr > job is to find winload
+									 > boot folder > all the way in the bottom > BCD
+									 > BCD (Boot Configuration Data. > Store data that say's "I know where winload is"
+									 > its noy a text file we cannot open it on a notepad
+									 > download EZBCD
+									 
+> EZBCD > makes the BCD folder readable
+		> Edit > 
+		
+
+Winload.efi > Using UEFI
+			> UEFI executable program
+
+BCD info  > cmd
+		  > bcdedit
+		  > 
+		  
+Review > BIOS-based booting uses winload.exe
+		> UEFI-based booting uses winload.efi
+		> Used EZBCD to easy look at and modify the boot configuration data(BCD)
+									 

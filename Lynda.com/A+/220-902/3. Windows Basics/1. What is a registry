@@ -1,0 +1,42 @@
+What is a registry?
+
+> ini > initialization files > to configure things
+
+Registry > common storage area
+		 > is not a text file it's a database
+		 > everything that is windows its in the registry somewhere.
+		 > everything you do in windows changes the registry.
+		 
+To get to the registry editor
+	> type REGEDIT
+	> type REGEDT32
+	
+	5 ROOT keys
+	1. HKEY_CLASSES_ROOT > basically everything that is you computer
+						 > every type of file, every type pf data structure ,its montrous
+						 > 
+	
+	2. HKEY_CURRENT_USER > is all the information about the currently logged in user.
+						 > everything from screensaver, background setup 
+						 > everything that i might have been setup.
+						 
+	3. HKEY_LOCAL_MACHINE > is information about this particula computer.
+						  > what software installed, what hardware installed.
+						  > how the security is setup
+						  
+						  
+	4. HKEY_USERS > is nothing more than a list of all different account that are currently on this computer.
+				  > they are kind of encoded 
+				  
+	5. HKEY_CURRENT_CONFIG > is nothing more than the current setup of the system.
+						   > any particular issue with software or harware to be set up at any given moment.
+						   > 
+	Making backup before editing registry
+	File> Export > desktop > filename > 
+	
+	Use the backup
+	>rightclick on it > merge
+	
+	REVIEW> the registry store informationfor every object or thing in windows
+		  > Remember the names of the root keys
+		  > Always make backup of the registry before you make any changes
