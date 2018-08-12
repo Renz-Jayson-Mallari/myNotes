@@ -4,6 +4,7 @@ NTFS - NT File System
 
 NTFS permissions - used groups
 
+Notes
 You can secure your files and folders by assigning permissions to users and groups.
 
 Groups assign the same permissions to every member of the groups.
