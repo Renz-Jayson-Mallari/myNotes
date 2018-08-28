@@ -1,0 +1,18 @@
+Windows Backup
+
+Vista 
+	Control panel > backup and restore center
+	Backup files - will backup files
+	backup computer - will creates a system image
+	
+7
+	Control panel > backup and restore
+	Create a system image - will save on separate drive
+	
+	8.1
+	File history - is like volume shadow copy 
+	
+	Review
+		> Files have been backeduo when they are save in another location
+		> Windows 7 and later support the creation of system image
+		> in windows 8 and later, backups are handled by file history

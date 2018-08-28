@@ -1,0 +1,22 @@
+Autostarting program
+
+msconfig.exe
+
+Vista / 7
+ startmenu>search msconfig > system configuration utility.
+ 
+ 8 / 8.1 / 10
+ 
+ Search  msconfig > startup > open up task manager
+ 
+ www.sysinternals.com
+ >autoruns
+ 
+ Review 
+	> Use the system configuration utility to safely disable autostarting programs
+	
+	> task manager deos the job starting with windows 8
+	
+	> try autoruns from www.sysinternals.com
+ 
+ 

@@ -1,0 +1,22 @@
+Meeting the MMC
+
+Control panel > Administrative tools > Computer management > disk amangement
+
+MMC - Microsoft Management Console
+
+search MMC > add msc snapins > save 
+
+list of msc
+
+> diskmgmt.msc -  Disk Management
+> perfmon.msc - Performance Monitor
+> services.msc - Services
+> lusrmgr.msc - Local Users and Groups
+> secpol.msc - Local Security Policy
+> gpedit.msc - Local Group Policy
+
+Review 
+
+	> Its sometimes too complex to find certain administrative tools
+	> MMC makes it easier to use the toools you use the most
+	> work smarter, not harder

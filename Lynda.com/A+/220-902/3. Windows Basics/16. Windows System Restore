@@ -1,0 +1,23 @@
+Windows System Restore
+
+Control panel > system > advance settings > system protection tab
+
+Volume Shadow Copy - making a copy differences
+
+Making a restore point
+	- recommended when making big changes
+	
+	Control panel > system > System protection > create > Name > 
+	
+Open a restore point
+ System protection  > system restore > choos different restore point
+ 
+ Restore points are created automatically as schedule task
+ 
+ Review 
+ 
+	> Windows System Restore is great for saving files that youve lost
+	
+	> Even though its good, its very risky
+	
+	> windows recovery environment uses respore pints

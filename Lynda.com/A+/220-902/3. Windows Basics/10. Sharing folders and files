@@ -1,0 +1,11 @@
+Sharing folders and files
+
+Review
+
+	> NTFS permissions are granted to users and groups on folders and files
+	
+	> Permissions inherit from folders into files and folders beneath it.
+	
+	> copying and moving NTFS onjects have different effects on NTFS assignments
+	
+	NTFS > New Technology File System

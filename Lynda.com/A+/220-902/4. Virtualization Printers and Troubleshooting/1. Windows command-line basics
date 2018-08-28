@@ -1,0 +1,34 @@
+Windows command-line basics
+
+CLI - Command Line Interface
+
+commands
+
+> help
+> cls - clear screen
+> cls /? - help for clear screen
+> / - switch
+> exit 
+
+run as administrator
+> dir - show me what is in the folder
+ directory means folder
+ 
+> dir /w - wide
+> dir /p - one at a time
+		 - key to continue
+> ctrl+c - stop
+> cd - change directory
+	  - point to different folder
+> cd\  - bring you to the root
+> cd .. - go back or go to parent folder
+
+Review - Access the command line though the starmenu
+	launch it in admin mode only when commands need it
+	
+		- Use the DIR command to show whats in a directory
+		use the cd command to move to a new directory
+		
+		
+		- Use switches to use different options on commands
+		dont forget, you can always use /? to get help
