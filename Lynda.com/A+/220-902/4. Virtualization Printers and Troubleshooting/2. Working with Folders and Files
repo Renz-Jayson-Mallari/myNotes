@@ -1,0 +1,57 @@
+Working with folders and files
+
+ FOLDERS ...
+ 
+ md - make directory
+ 
+ > md c:\Timmy
+ > md c:\Timmy\Tammy
+ 
+ shortcut
+ 
+ > cd Timmy
+ > md Freddy (dont have to make the directory
+ 
+ rd - remove directory
+ 
+ > rd Tammy
+ > rd Freddy
+ > cd ..
+ > rd Timmy
+ 
+ FILES ...
+ 
+ > d: (USB)
+ > c: (bring you back where you were)
+ 
+ Copy syntax - copy [source] [destination]
+ 
+ > copy filename1 d:
+ > d:
+ > dir
+ 
+ DEL and ERASE are syntax to delete
+ 
+ > d:
+ > del filename1
+ 
+ copy all .doc
+ 
+ > copy *.doc d:
+ * - is a wildcard that means any and all characters
+ 
+ > del *.doc
+ 
+ MOVE syntax
+ 
+ > move *.* d:
+ *.* - move evrything
+ 
+ > copy *.* c:\users\studio\documents
+ 
+ REVIEW
+	> Use MD and RD to create and remove directories
+	> use copy to duplicates files to a new directory or drive,
+	use move when you want to remove them from the source directory
+	> use del or erase to delete files.
+ 

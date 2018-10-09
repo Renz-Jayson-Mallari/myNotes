@@ -1,0 +1,16 @@
+
+Windows Recovery Console
+
+	fixboot - rewrites a new boot sectors into your partitition.
+	
+	fixmbr - put a master boot record into that boot sector.
+	
+	Notes: this only be use on the system that you are sure that it dont have a virus.
+	
+	Review
+	
+		- You can access the recovery console from the windows installation media
+		
+		- The recovery console works a lot like the command prompt, but includes special commands
+		
+		- special rcovery console commands includes fixboot and fixmbr.

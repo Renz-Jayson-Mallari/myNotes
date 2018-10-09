@@ -1,0 +1,19 @@
+Kernel Panic
+ ex. windows Blue screen of death
+     spinning pinwheel of death for OSX
+		- is not a kenel panic, what happen is
+		osx is tuck on something.
+		- simple reboot will tc of it.
+		
+		new hardware can cause kernel panic.
+		
+		corrupted driver can cause kernel panic.
+		
+		kernel panic at the same memory location points to bad ram.
+		
+		Review
+		
+			All OS can experience kernel panic
+			Kernel panic are often caused by hardware changes
+			research the error message
+	 

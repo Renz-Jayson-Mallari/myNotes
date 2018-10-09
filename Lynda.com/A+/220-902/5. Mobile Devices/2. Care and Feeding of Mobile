@@ -1,0 +1,164 @@
+2.Care and Feeding of Mobile Devices
+	cdma - code devision multiple access
+		 - older
+		 - does not have simcard
+		 
+		 settings> about> status> prl version
+		 
+		 pri -product release informations
+		 
+		 prl - preferred roaming list
+		 update prl (firmware update)
+		 
+		 esn- electronic serial number
+		 
+		 meid - mobile equipment identifier
+		 
+		 min - mobile identification number
+		 
+		 imsi - international mobile subcriber identity.
+			  - you
+		 
+	gsm -  global system for mobile
+		- newer
+		- has simcard
+		
+		settings> about> status
+		
+		imei - international mobile station equipment identity
+		
+		dial - *#06
+			 - to get imei
+			 
+2. Wireless mobile connections : Part 1
+
+802.11 
+ - make sure your phone wifi os the same 802.11 standard and band as your wap.
+ 
+ advanced options - static ip address
+				  - proxy server
+				  
+  - turning off wifi can save battery but there are larger power consumers to manage first.
+  
+ Bluetooth
+	- connect to speakers, car audio for hands-free calling and wearable portables.
+	- pair with device - provide pairinf code
+	
+ Cellular
+ 
+	-disable data to avoid exceeding payment.
+	- enable/disable international roaming
+	- when traveling abroad , use international sim card or a phone from destination locale
+	
+	review 
+		802.11
+		cellular
+		bluetooth
+		
+ 3. Wireless mobile connection part 2
+ 
+	hotspot - makes phone act like a wap with cellular network connection.
+	
+		- multiple stations can connect to the hot spot via wifi.
+		
+		
+	Tethering - uses a wired connection between the phone and the computer - typically usb
+			- because tethering is wired, it is difficult to hack.
+			- the connection makes the link appear as network connection.
+			
+			
+	Mobile payment services use 
+	NFC - Near Field Communication.
+	NFC has slow transfer speed(424 kb/s)
+	
+	NFC can be enabled/disabled called android beam on android device.
+	
+	NFC printing uses nfc to start the process,
+	then starts wifi direct.
+	
+	Wifi direct creates a temporary ad-hoc network between nfc devices.
+	
+ Infrared - most android devices have an infrared interface(ir)
+ 
+ review 
+	802.11 & bluetoott
+	hotspot and tethering
+	nfc, wifi direct, and infrared
+	
+4. mobile devices and email
+	setting up emails is generally the same process on any mobile os
+	use integrated email apps or download them
+	set uo pop3/imap or exchanges cliets
+	
+Synchronization
+
+	User accounts are the key to cross-platform syncronization.
+	
+	syncronizing with apple
+		using itunes - syncs with desktop
+					 - automated and poweful.
+					 
+		using icloud - sync with cloud.
+					 
+		
+	syncronizing with windows mobile.
+		windows mobile syncs to the cloud using outlook.
+		
+	Synchronizing with android
+		configure syncronization options on android device
+		using google account.
+		
+		each google app's data is synced accross devices.
+		
+		www.google.com
+		login 
+		upper right corner
+		
+review 
+	apple syncs via itunes and icloud
+	windows syncs via outlook
+	android syncs via google sync
+	
+Securing Android Devices
+	anti malware
+		mcafee
+		update and patches
+			-auto update application
+			-settings>about table > system firmware update
+		remote wipe
+			-android lost
+		remote backup
+			settings>backup and reset
+			>backup on gmail account.
+		passcode
+			>settings>screen lock
+		failed login attempt
+			>5x incorrectly you will have to wait a little wait.
+			
+	Review
+		anti-malware software is available for android devices
+		make sure to keep your application and os updated
+		seta  lock screen to keep out nosy friends
+		
+Securing IOS devices
+	
+	No need anti malware.
+	find my iphone
+		play a sound
+		remote lock
+		remote wipe
+		
+	patches and updates
+		using itunes
+		using device
+			- appstore >updates - to updates application
+			- settings > general > software updates
+			
+		passcode 
+			- general > passcode lock
+			- iPad disable
+	
+	Review 
+		anti malware apps are not available for IOS
+		icloud provides find my iphone which will locate your phone and enable you to wipe data from it
+		remember to set up your lock screen

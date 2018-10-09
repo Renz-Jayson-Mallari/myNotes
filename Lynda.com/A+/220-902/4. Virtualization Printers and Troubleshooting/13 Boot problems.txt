@@ -1,0 +1,25 @@
+boot problems
+
+	1. hardware
+	2. bios
+	3. desktop
+	4. autostart
+	
+	hardware - ensure storage device is functioning
+			 - ensure all device cables are plugged in and working
+			 
+	bios - device disbaled
+	
+	desktop -  missing OS
+			- missing BCD
+			- boot into recovery environment and fix
+			
+	autostart - slow startup
+				- too many programs autostarting.
+			  
+			  - msconfig
+			  
+	Review - hardware and bios
+				desktop
+				autostart
+	

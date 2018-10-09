@@ -1,0 +1,31 @@
+
+Working with Drives
+	
+	Format
+	
+	> format d:
+	> format d: /q  
+		(quick format)
+	
+	
+	Patition
+	
+	> diskpart
+	> list disk
+	> select disk 6
+	> list partition
+	> select partition 0
+	> delete partition 
+	> list partition
+	
+	Chkdsk
+	
+	>chkdsk
+	>chkdsk /f
+	>chkdsk /f /x
+	
+	Review
+	> Format - formats the drive
+	>diskpart manage partition
+	> check for bad blocks on drives
+	>sfc - finds and replace lost or corrupter filse

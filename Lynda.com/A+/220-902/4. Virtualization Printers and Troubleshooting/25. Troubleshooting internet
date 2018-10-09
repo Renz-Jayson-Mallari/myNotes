@@ -1,0 +1,9 @@
+Troubleshooting Internet
+
+Ping ia a helpful tool for checking connections to web servers
+but also dns servers
+
+Try 8.8.8.8 as your dns server if you have dns problems
+
+Implement QOS to control how much network bandwidth can be used.
+

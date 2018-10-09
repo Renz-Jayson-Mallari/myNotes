@@ -1,0 +1,22 @@
+Virtualization basics
+
+Emulation uses software to imitate hardware
+
+Virtualization uses a system actual hardware
+
+virtualization saves power.
+
+virtualization consolidates hardware
+
+virtualization is handy for it research
+
+hypervisor 
+type 2 or hosted hypervisor
+type 1 or bare-metal hypervisor
+
+review
+	dont confuse virtualization with emulation
+	make sure you recognize the benifits of virtualization
+	there are two type of hypervisor 
+	type1 bare metal
+	type2 hosted

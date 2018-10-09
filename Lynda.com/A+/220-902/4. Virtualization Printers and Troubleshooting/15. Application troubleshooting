@@ -1,0 +1,38 @@
+Application Troubleshooting
+
+missing dll. - cannot find dynamic link library
+			
+			-dll are subroutines save in a file
+			
+			- for missing dll error , do some research
+			
+			- run on cmd "sfc /scannow"  to find missing dll.
+			
+			- reinstall the application.
+			
+			- regsvr32 nameofthe.dll
+			
+			- check downloaded dllls with anti-malware.
+			
+			
+			MISSING SERVICE
+			- enable services on services
+			- msconfig
+			- reinstall the application
+			- do research
+			
+			Compatibility error
+			- troubleshoot compatibily
+			- rigth click > properties> compatibility tab
+			
+			VIRTUALIZATION
+			
+			SYSTEM LOCKUP
+			- blame to application
+			- reinstall application
+			- bad application
+			- do research
+			
+			REVIEW
+			
+			

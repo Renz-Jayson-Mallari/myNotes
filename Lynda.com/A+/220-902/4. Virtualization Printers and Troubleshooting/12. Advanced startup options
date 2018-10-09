@@ -1,0 +1,23 @@
+ Advanced startup options
+ 
+ f8 - advanced startup options
+ 
+ safe mode - most basic possible mode
+
+ Review 
+	- During tthe boot process,press F8 to open the
+	advanced startuo options menu.
+	
+	- from the advanced startup options menu, you can start various
+	safe modes, vga modes, and use the last known good configurations
+	
+	- The startup options vary slightly between each versions of windows.
+	
+	To use old school f8 to get on advanced startup options
+	open a cmd
+	> bcedit /set {default} bootmenupolicy legacy
+	
+	Review
+	- windows can autolaunch startup options
+	- use recovery environment to access startuo options in windows 8
+	- shift-restart to access startup in windows 10

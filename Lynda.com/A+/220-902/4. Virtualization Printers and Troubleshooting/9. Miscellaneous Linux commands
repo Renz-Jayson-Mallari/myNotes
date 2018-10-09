@@ -1,0 +1,55 @@
+Miscellaneous Linux commands
+
+	grep commands
+	
+	grep - searches for text strings from input.
+	> ls
+	> grep "error" ls_file.log
+	> clear
+	> grep -r "error" /var/log
+	
+	ps commands
+	
+	ps - shows running process
+	> ps
+	> ps aux 
+	- see everything that us running
+	> ps aux | grep "evol" 
+	-a pipe redirects output from one command to another.
+	
+	ifconfig and iwconfig commands
+	ifconfig - shows wired and ip network configuration.
+	iwconfig - is for wireless.
+	
+	>ifconfig
+	>iwconfig
+	
+	apt-get command
+	
+	apt-get - is a package manager for debian-based distros.
+	
+	> sudo apt-get update
+	make sure the cache is up to date.
+	- sudo apt-get update refreshes the package cache.
+	> sudo apt-get upgrade
+	sudo apt-get upgrade finds and upgrades out-of-date packages.
+
+	> sudo apt-get install htop
+	sudo apt-get install <name> 
+	-fetches and install new packages.
+	
+	> sudo htop
+	
+	> sudo apt-get remove htop
+	sudo apt-get remove <name>
+	-uninstalls a package
+	
+	Review 
+		- grep is your swiss army knife for searching text
+		use grep with files, directories, or output from commands like ps
+		
+		- use ifconfig to mange your network interface and ip address
+		use iwconfig to manage "wireless" part of your wifi connection
+		
+		- use apt-get upgrade, install and remove packages on debian based system like ubuntu.
+	

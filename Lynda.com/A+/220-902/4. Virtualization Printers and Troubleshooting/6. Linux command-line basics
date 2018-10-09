@@ -1,0 +1,45 @@
+
+LINUX command-line basics
+
+teminal or command line
+
+	>pwd
+		- PRINT WORKING DIRECTORY
+		- shows your curretn working directory.
+		
+	> ls 
+	> ls -l
+	    - show the list in more details
+		
+	" It's not just commands, all files and folders are case sensitive.
+	
+	> cd  .. 
+	> pwd
+	
+	" a nice shortcut home is to type cd then press enter"
+	
+	> vi Bob
+	
+	"i"  activates the insert mode for writing
+	> i
+	"esc takes you back to the command line"
+	
+	> :q!
+	- quit without saving
+	
+	> :w
+	> :q
+	
+	The shutdown and sudo commands
+	
+	> shutdown
+	shutdown can also reboot with the -r switch
+	
+	> sudo
+	
+	REVIEW
+		- USE ls,cd,and pwd to navigate around the file system
+		- VI is a powerful but difficult to learn text editor found on 
+		almost every linux/unix system
+		- sudo grants root privileves on many linux/unix systems
+		required for commands like shutdown.

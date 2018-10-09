@@ -1,0 +1,49 @@
+Working with folders and files LinuX
+
+	Copy command
+	
+	cp - copy files from one folder to another.
+	> cp * ../backup
+	> cd ../backup
+	>> ls -l
+	
+	> cp nameofthefile ../backup
+	
+	mv - is the same as cp except files are moved.
+	
+	rm - remove/delet files
+	
+	> rm nameofthefile.pdf
+	> ls -l
+	
+	rmdir - remove directory
+	>rmdir backupFolder
+	> ls -l
+	
+	mkdir - make a directory
+	
+	>mkdir nameOfDirectory
+	
+	DD command in linux
+	DD - copies disks and partitions
+	
+	>lsblk
+	clone and image
+	
+	>> sudo dd if=/dev/sda of=/dev/sdb
+	dd syntax is : dd if=source of=destination
+	
+	> sudo dd if=/dev/sda1 of=~/backup.img
+	~ = home directory
+	sda1 = partition
+	
+	> sudo dd if=/dev/urandom of=/dev/sda bs=4k
+	= wipe out the hard drive
+	= dd can be used to duplicate and wipe disk.
+	
+	review
+		- use cp, mv, and rm to manage files in linux system.
+		
+		- use mkdir and rmdir to manage folders in linux system
+		
+		- use dd to backup and completely erase hard drives

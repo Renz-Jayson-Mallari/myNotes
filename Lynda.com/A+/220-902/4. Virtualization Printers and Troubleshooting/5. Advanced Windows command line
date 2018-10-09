@@ -1,0 +1,28 @@
+Advanced Windows command line
+
+	GPUPDATE and GPRESULT
+	
+	GPUPDATE - forces immediate application 
+			of group policy.
+			
+	GPRESULT - displays group policy information.
+	
+	> gpresult /user renzm /v
+	
+	TASKLIST and TASKKILL
+	
+	TASKLIST - show running processes and their process id.
+	
+	>tasklist
+	
+	TASKKILL  - terminates the process
+	>taskkill /pid 8088
+	
+	REVIEW
+	- GPUPDATE forces your computer to update and apply
+	any changes to group policy.
+	
+	- GPRESULT display detailed group policy and users
+	information
+	
+	- TASKKILL shows running process, taskkill terminiates them.

@@ -1,0 +1,25 @@
+Fancy copying
+
+	XCOPY
+	 - copies files and folder
+	 
+	 > xcopy *.* d: /s /e
+	 xcopy /s - copies current and populated subdirectories
+	 xcopy /e - copies empty directories
+	 
+	 ROBOCOPY
+	 - much much faster
+	 - more robust
+	 - its so robust its name is short for robust copying
+	 
+	 > robocopy .\documents d: /e /s
+	 documents is folder inside the current folder
+	 ex. renz\documents when renz is the current folder
+	 
+	 review
+	 
+	 > xcopy is the classic command for copying a directory with all its files.
+	 > use the /s and /e with xcopy to get both populated and empty subdirectories
+	 > robust file copy(robocopy) is like a turbochrged xcopy
+	 use /s and /e if you want to use it like xcopy.
+	 

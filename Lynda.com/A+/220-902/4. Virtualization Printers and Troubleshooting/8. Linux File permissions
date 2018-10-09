@@ -1,0 +1,82 @@
+Linux File permissions
+
+Creator/Owner - 1st 3 set of permissions
+Group - 2nd 3 set of permissions
+other - 3rd set of permissions
+
+ r - read
+   - open a file
+   - view contents
+ 
+ w - edit a file
+   - add/delete files
+  
+ x - execute
+   - run a file
+   - cd to a different directory
+   
+  chmod - shorts for change mode
+		-
+	> chmod o= NameOfTheFile
+	= turn off all permissions
+	
+	> chmod g=rx NameOfTheFile
+	= read and execute
+	
+	> chmod a=rwx NameOfTheFile
+	a = all
+	= give everyone a permissions
+	
+	rwxrwxrwx 1 student student 3243 feb 11 NameOfTheFile
+	
+	r = 4
+	w = 2
+	x = 1
+	
+	rwx = 7
+	rw = 6
+	rx = 5
+	wx = 3
+	
+	> chmod 777 NameOfTheFile
+	= everyone has permissions
+	
+	> chmod 760 NameOfTheFile
+	owner = all permissions
+	group = read and write
+	others = no permissions
+	
+	chown - shorts for change ownership
+	sudo - you must run chown with root permissions
+	
+	sudo chown root NameOfTheFile
+	root - change ownership to root from student
+	
+	passwd - change user password.
+	
+	> sudo passwd 
+	> EnterNewPassword
+	> EnterNewPassword
+	
+	Review
+		- Linux has three permissions
+			read
+			write
+			execute
+		-they can be set for they
+			owner 
+			group
+			other
+			
+		- use chmod to change permissions
+		
+		- use chown to change file and folder ownership
+		
+		- use passwd to change password
+		
+	
+	
+	
+	
+	
+	

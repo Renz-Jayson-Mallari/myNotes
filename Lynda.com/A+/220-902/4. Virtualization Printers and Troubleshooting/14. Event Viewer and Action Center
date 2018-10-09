@@ -1,0 +1,30 @@
+Event Viewer and Action center
+
+control panel> administrative tools event viewer
+
+Logs
+	application
+	security
+	setup
+	system
+	forwareded events
+	
+	Levels
+	information - 
+	warning - we found a problem we fix it
+			and we letting you know.
+			
+	error - we found a problem, we cant fix it
+	
+	critical - bad happens
+	
+Action center
+controlpanel >action center
+ security 
+ maintenance
+ 
+ Review
+ 
+	Event Viewer is used by techs auditing events after they happens
+	Action Center reports real time issues
+	Action Center provides automatic notification
