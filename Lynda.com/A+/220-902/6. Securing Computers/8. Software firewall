@@ -1,0 +1,32 @@
+Software firewall
+	- is a program that sits on your individual host basically protects everybody from you.
+	
+	- evey OS has Software firewall
+	
+	- software firewalls are implemented on each host
+	
+	Windows Firewall
+	control panel > large/small icons
+	
+	firewall defaults vary : domain/private/public
+	
+	exceptions are openings in the firewalls
+	
+	advances settings firewallsettings : set inbound and outbound rules
+	
+	
+	default exceptions are generally sufficient
+	
+	IDS - Intrusion detection system
+		- design to detect something naugthy happening and let you know about it
+		
+	IPD - Intrusion Prevention System
+		- detect the intrusion and do something about it in real time
+		
+		REVIEW
+		
+			Windows implements a software firewall on each windows computer
+			
+			exceptions are opening in a firewall
+			
+			IDS and IPS

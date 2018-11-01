@@ -1,0 +1,22 @@
+ Hardware firewall
+	- some kind of magical box that seats 
+	between your little network and internet.
+	- protects you from the evils of internet
+	and protects internet from the evils of you
+	-firewall can be a router itself that has extra 
+	specs that built in with it.
+	- or a separate box that that seats after the router
+	
+	2 types of firewall
+	1. Stateful firewall	- 
+	2. Stateless firewall - is something you configure via Access Control List
+						  - say like block this port , block this computer from getting up
+							prevent anybody from getting to particula wesite
+						  - also called dumb firewall
+						  
+	SPI - Stateful Packet Inspection - enabled
+	
+	REVIEW
+		Stateless packet inspection /ACL
+		StatefulPacket inspections
+		use Stateless and stateful for a complete firewall solution
